@@ -1,17 +1,29 @@
-export function createStorage(backend = globalThis.localStorage) {
+const kind = (v) => (v === null ? "null" : Array.isArray(v) ? "array" : typeof v);
+
+export function createStorage(backend) {
+  const get = () => {
+    try {
+      return backend === undefined ? globalThis.localStorage : backend;
+    } catch {
+      return undefined;
+    }
+  };
   return {
     load(key, fallback) {
       try {
-        const raw = backend.getItem(key);
+        const raw = get().getItem(key);
         if (raw === null || raw === undefined) return fallback;
-        return JSON.parse(raw);
+        const v = JSON.parse(raw);
+        if (v === null) return fallback;
+        if (fallback !== null && fallback !== undefined && kind(v) !== kind(fallback)) return fallback;
+        return v;
       } catch {
         return fallback;
       }
     },
     save(key, value) {
       try {
-        backend.setItem(key, JSON.stringify(value));
+        get().setItem(key, JSON.stringify(value));
         return true;
       } catch {
         return false;

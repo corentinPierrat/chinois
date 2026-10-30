@@ -9,10 +9,9 @@ export function record(progress, key, correct, now = Date.now()) {
   };
 }
 
-let lastPicked = null;
-
-export function pickNext(keys, progress, rng = Math.random) {
-  let cands = keys.length > 1 ? keys.filter((k) => k !== lastPicked) : keys;
+export function pickNext(keys, progress, rng = Math.random, last = null) {
+  if (!keys.length) return null;
+  let cands = keys.length > 1 ? keys.filter((k) => k !== last) : keys;
   if (!cands.length) cands = keys;
   const weight = (k) => 6 - (progress[k]?.box ?? 0);
   // heaviest first (stable), so a low rng favors the least-known items
@@ -24,6 +23,5 @@ export function pickNext(keys, progress, rng = Math.random) {
     if (r < w) { pick = k; break; }
     r -= w;
   }
-  lastPicked = pick;
   return pick;
 }

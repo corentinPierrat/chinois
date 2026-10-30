@@ -67,3 +67,12 @@ test("gapQuestion blanks a matching token", () => {
   assert.equal(new Set(g.choices).size, 4);
   assert.ok(g.choices.includes(g.answer));
 });
+test("gapQuestion tops up distractors from allWords", () => {
+  const s = { tokens: ["我", "是", "。"] };
+  const words = [{ hanzi: "是", proper: false }];
+  const allWords = Array.from({ length: 10 }, (_, i) => ({ hanzi: "字" + i, proper: false })).concat(words);
+  const g = gapQuestion(s, words, () => 0.2, allWords);
+  assert.equal(g.choices.length, 4);
+  assert.equal(new Set(g.choices).size, 4);
+  assert.equal(g.choices.filter((c) => c === "是").length, 1);
+});

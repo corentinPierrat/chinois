@@ -31,11 +31,12 @@ test("pickNext favors unseen with rng 0", () => {
   assert.equal(pickNext(["a", "b"], p, () => 0), "b");
 });
 test("pickNext single key", () => assert.equal(pickNext(["a"], {}, () => 0.5), "a"));
-test("pickNext never repeats consecutively", () => {
-  let prev = pickNext(["x", "y", "z"], {}, Math.random);
-  for (let i = 0; i < 100; i++) {
-    const n = pickNext(["x", "y", "z"], {}, Math.random);
-    assert.notEqual(n, prev);
-    prev = n;
+test("pickNext never returns last when several keys", () => {
+  for (const last of ["x", "y", "z"]) {
+    for (let i = 0; i < 50; i++) {
+      assert.notEqual(pickNext(["x", "y", "z"], {}, Math.random, last), last);
+    }
   }
 });
+test("pickNext with single key ignores last", () => assert.equal(pickNext(["a"], {}, Math.random, "a"), "a"));
+test("pickNext on empty list returns null", () => assert.equal(pickNext([], {}), null));

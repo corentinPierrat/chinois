@@ -55,15 +55,14 @@ export function reorderQuestion(sentence, rng = Math.random) {
   return { tokens, answer };
 }
 
-export function gapQuestion(sentence, words, rng = Math.random) {
+export function gapQuestion(sentence, words, rng = Math.random, allWords = words) {
   const known = new Map();
   for (const w of words) if (!w.proper) known.set(w.hanzi, w);
   const idxs = sentence.tokens.map((t, i) => (known.has(t) ? i : -1)).filter((i) => i >= 0);
   if (!idxs.length) return null;
   const i = idxs[Math.floor(rng() * idxs.length)];
   const answer = sentence.tokens[i];
-  const others = [...new Set(words.filter((w) => !w.proper).map((w) => w.hanzi))].filter((h) => h !== answer);
-  const ds = shuffle(others, rng).slice(0, 3);
+  const ds = distractors(answer, [words.filter((w) => !w.proper), allWords.filter((w) => !w.proper)], "hanzi", rng, 3);
   return {
     before: sentence.tokens.slice(0, i).join(""),
     after: sentence.tokens.slice(i + 1).join(""),

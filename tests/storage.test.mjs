@@ -30,3 +30,23 @@ test("createStorage(undefined) works without localStorage", () => {
   assert.equal(typeof s.save("k", 1), "boolean");
   assert.equal(typeof storage.load, "function");
 });
+test("load rejects null / wrong-type stored values", () => {
+  const mk = (raw) => createStorage({ getItem: () => raw });
+  assert.deepEqual(mk("null").load("k", { a: 1 }), { a: 1 });
+  assert.deepEqual(mk("5").load("k", { a: 1 }), { a: 1 });
+  assert.deepEqual(mk("[]").load("k", { a: 1 }), { a: 1 });
+  assert.deepEqual(mk("{}").load("k", []), []);
+  assert.deepEqual(mk('{"b":2}').load("k", { a: 1 }), { b: 2 });
+});
+test("throwing globalThis.localStorage getter is tolerated", () => {
+  const desc = Object.getOwnPropertyDescriptor(globalThis, "localStorage");
+  Object.defineProperty(globalThis, "localStorage", { configurable: true, get() { throw new Error("SecurityError"); } });
+  try {
+    const s = createStorage();
+    assert.deepEqual(s.load("k", { a: 1 }), { a: 1 });
+    assert.equal(s.save("k", 1), false);
+  } finally {
+    if (desc) Object.defineProperty(globalThis, "localStorage", desc);
+    else delete globalThis.localStorage;
+  }
+});
