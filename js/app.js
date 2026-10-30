@@ -5,15 +5,15 @@ const LESSONS_KEY = "revchinois.lessons";
 const PROGRESS_KEY = "revchinois.progress";
 const ALL = [1, 2, 3, 4, 5, 6, 7, 8];
 
-// Add a route here: hash -> view module (exports render(root, ctx)).
+// Add a route here: hash -> view module path (exports render(root, ctx)). null = « Bientôt disponible ».
 const ROUTES = {
   "#/": "./views/home.js",
   "#/mots": "./views/words.js",
-  "#/reconnaitre": "./views/reconnaitre.js",
-  "#/ecrire": "./views/ecrire.js",
-  "#/tons": "./views/tons.js",
-  "#/regles": "./views/regles.js",
-  "#/progres": "./views/progres.js",
+  "#/reconnaitre": null,
+  "#/ecrire": null,
+  "#/tons": null,
+  "#/regles": null,
+  "#/progres": null,
 };
 
 const root = document.getElementById("app");
@@ -25,24 +25,40 @@ function placeholder() {
   root.querySelector(".back").onclick = () => ctx.navigate("#/");
 }
 
+function errorScreen(err) {
+  console.error(err);
+  root.innerHTML = `<div class="bar"><button class="back">‹ Retour</button></div><p class="soon">Oups, cet écran a planté</p>`;
+  root.querySelector(".back").onclick = () => ctx.navigate("#/");
+}
+
 async function route() {
   if (typeof cleanup === "function") { try { cleanup(); } catch {} }
   cleanup = null;
-  const hash = ROUTES[location.hash] ? location.hash : "#/";
+  const hash = hash0();
   const token = (route.t = (route.t || 0) + 1);
-  let mod = null;
-  try { mod = await import(ROUTES[hash]); } catch { mod = null; }
+  if (!ROUTES[hash]) { window.scrollTo(0, 0); return placeholder(); }
+  let mod;
+  try { mod = await import(ROUTES[hash]); } catch (e) { if (token === route.t) errorScreen(e); return; }
   if (token !== route.t) return;
-  root.scrollTo?.(0, 0); window.scrollTo(0, 0);
-  if (!mod || typeof mod.render !== "function") return placeholder();
-  cleanup = mod.render(root, ctx) || null;
+  window.scrollTo(0, 0);
+  try {
+    if (typeof mod.render !== "function") throw new Error("render() manquant");
+    cleanup = mod.render(root, ctx) || null;
+  } catch (e) { errorScreen(e); }
 }
+
+function hash0() { return location.hash in ROUTES ? location.hash : "#/"; }
 
 async function start() {
   root.innerHTML = `<p class="soon">Chargement…</p>`;
   let data;
   try { data = await loadData(); }
-  catch (e) { root.innerHTML = `<p class="soon">Impossible de charger les données.<br><small>${e.message}</small></p>`; return; }
+  catch (e) {
+    root.innerHTML = `<p class="soon">Impossible de charger les données.<br><small></small><br><br><button class="chip">Réessayer</button></p>`;
+    root.querySelector("small").textContent = e.message;
+    root.querySelector("button").onclick = () => location.reload();
+    return;
+  }
   const saved = storage.load(LESSONS_KEY, ALL);
   const valid = Array.isArray(saved) ? saved.filter((n) => data.lessons.some((l) => l.id === n)) : ALL;
   const progress = storage.load(PROGRESS_KEY, {}) || {};
