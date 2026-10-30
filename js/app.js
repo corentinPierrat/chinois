@@ -12,7 +12,7 @@ const ROUTES = {
   "#/reconnaitre": "./views/recognize.js",
   "#/ecrire": "./views/write.js",
   "#/tons": "./views/tones.js",
-  "#/regles": null,
+  "#/regles": "./views/rules.js",
   "#/progres": null,
 };
 

@@ -80,3 +80,33 @@ h2{font-size:1.05rem;margin:0}
 .pyok{color:#2e9e5b;font-weight:700}
 .pybad{color:#d64541;font-weight:700}
 .next:disabled{opacity:.45}
+.rule{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:12px}
+.rule.tip{background:var(--chip);border-style:dashed}
+.rule h4{margin:0 0 6px;font-size:1.05rem}
+.rlabel{font-size:.75rem;font-weight:700;color:var(--accent);margin-bottom:2px}
+.rstruct{font-size:1.15rem;color:var(--accent);margin-bottom:6px}
+.rule p{margin:0 0 8px;font-size:.95rem;line-height:1.4}
+.rex{display:flex;align-items:center;gap:8px;border-top:1px solid var(--line);padding:8px 0 0;margin-top:8px}
+.rexmain{flex:1;min-width:0}
+.rexzh{font-size:1.7rem;line-height:1.3}
+.rex .py{color:var(--accent);font-size:.95rem}
+.rexfr{color:var(--muted);font-size:.85rem}
+.hint{text-align:center;color:var(--muted);margin:8px 0 0;font-size:.9rem}
+.rfr{text-align:center;font-weight:600;margin:4px 0 12px}
+.prompt.sent .hanzi{font-size:36px;line-height:1.4;word-break:normal}
+.blank{color:var(--accent);border-bottom:3px solid var(--accent);padding:0 4px}
+.choice.hanzi{font-size:1.6rem}
+.rline{display:flex;flex-wrap:wrap;gap:8px;min-height:68px;padding:8px;border:2px dashed var(--line);border-radius:14px;align-items:center;justify-content:center}
+.rline.ok{border-color:#2e9e5b;border-style:solid}
+.rline.bad{border-color:#d64541;border-style:solid}
+.rempty{color:var(--muted);font-size:.9rem;font-family:system-ui,sans-serif}
+.rbank{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin:14px 0;min-height:56px}
+.rtok{min-width:44px;min-height:48px;padding:4px 12px;border-radius:12px;border:2px solid var(--line);background:var(--card);font-size:1.7rem;font-family:inherit}
+.rline .rtok{background:var(--chip)}
+.rtools{display:flex;gap:10px;justify-content:center}
+.rtools .mode{min-height:48px;padding:0 20px;border-radius:24px;border:2px solid var(--line);background:var(--card);font-weight:600}
+.rsol{text-align:center;margin:8px 0}
+.rsol .hanzi{font-size:1.9rem}
+.rsol .py{color:var(--accent)}
+.foot{text-align:center}
+.rtools .mode.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
