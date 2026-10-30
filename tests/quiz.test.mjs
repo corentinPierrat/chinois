@@ -76,3 +76,31 @@ test("gapQuestion tops up distractors from allWords", () => {
   assert.equal(new Set(g.choices).size, 4);
   assert.equal(g.choices.filter((c) => c === "是").length, 1);
 });
+test("choice question never offers a homograph's other meaning", () => {
+  const pool = [
+    { id: "a", hanzi: "想", pinyin: "xiǎng", fr: "penser", proper: false },
+    { id: "b", hanzi: "想", pinyin: "xiǎng", fr: "avoir envie", proper: false },
+    ...Array.from({ length: 6 }, (_, i) => w(i, "fr" + i)),
+  ];
+  for (let n = 0; n < 50; n++) {
+    let s = n + 1;
+    const rng = () => ((s = (s * 16807) % 2147483647) / 2147483647);
+    const q = makeChoiceQuestion(pool[0], pool, "fr", rng);
+    assert.ok(!q.choices.includes("avoir envie"));
+    assert.equal(q.choices[q.answerIndex], "penser");
+  }
+});
+test("gapQuestion never offers the synonym of the answer", () => {
+  const words = [
+    { hanzi: "星期日", fr: "dimanche", proper: false },
+    { hanzi: "星期天", fr: "dimanche", proper: false },
+    ...Array.from({ length: 6 }, (_, i) => w(i, "fr" + i)),
+  ];
+  const s = { tokens: ["今天", "星期日", "。"] };
+  for (let n = 0; n < 50; n++) {
+    let k = n + 1;
+    const rng = () => ((k = (k * 16807) % 2147483647) / 2147483647);
+    const g = gapQuestion({ tokens: ["星期日"] }, words, rng);
+    assert.ok(!g.choices.includes("星期天"));
+  }
+});

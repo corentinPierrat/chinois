@@ -50,7 +50,7 @@ h2{font-size:1.05rem;margin:0}
 .wword{font-size:2.4rem;line-height:1.25;margin:4px 0 0;display:flex;justify-content:center;align-items:center;gap:4px}
 .wword .blank{display:inline-block;width:1em;height:1em;border:2px dashed var(--accent);border-radius:6px;background:var(--chip)}
 .wpy{color:var(--accent);font-size:1.1rem}
-.wgrid{position:relative;margin:0 auto;width:min(80vw,300px);height:min(80vw,300px);background:var(--card);border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08);touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow:hidden;transition:box-shadow .2s}
+.wgrid{position:relative;margin:0 auto;width:min(80vw,300px,38dvh);height:min(80vw,300px,38dvh);background:var(--card);border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08);touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow:hidden;transition:box-shadow .2s}
 .wgrid.ok{box-shadow:0 0 0 3px #2e9e5b}
 .wgrid.bad{box-shadow:0 0 0 3px #d64541}
 .mizige{position:absolute;inset:0;width:100%;height:100%;stroke:var(--grid);pointer-events:none}

@@ -95,7 +95,7 @@ export function render(root, ctx) {
       </div>
       <button class="next" data-act="next">Suivant ›</button>`;
     const grid = root.querySelector(".wgrid");
-    const size = Math.round(Math.min(grid.parentElement.clientWidth || 300, window.innerWidth * 0.8, 300));
+    const size = Math.round(Math.min(grid.parentElement.clientWidth || 300, window.innerWidth * 0.8, window.innerHeight * 0.38, 300));
     grid.style.width = grid.style.height = size + "px";
     // Belt and braces with touch-action:none: never let a trace scroll or zoom the page.
     const stop = (e) => { if (e.cancelable) e.preventDefault(); };
@@ -107,6 +107,7 @@ export function render(root, ctx) {
       padding: 8,
       showCharacter: false,
       showOutline: false,
+      showHintAfterMisses: 1,
       strokeAnimationSpeed: 1,
       delayBetweenStrokes: 250,
       drawingWidth: Math.max(14, Math.round(size / 18)),

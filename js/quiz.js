@@ -12,12 +12,14 @@ function shuffle(arr, rng) {
   return a;
 }
 
-function distractors(answer, sources, field, rng, n) {
+function distractors(word, sources, field, rng, n, extraSkip = () => false) {
+  const answer = word[field];
   const out = [];
   const seen = new Set([answer]);
   for (const list of sources) {
     for (const w of shuffle(list, rng)) {
       const v = w[field];
+      if (w.hanzi === word.hanzi || extraSkip(w)) continue; // homograph / synonym: also a valid answer
       if (v && !seen.has(v)) { seen.add(v); out.push(v); if (out.length === n) return out; }
     }
   }
@@ -26,7 +28,7 @@ function distractors(answer, sources, field, rng, n) {
 
 export function makeChoiceQuestion(word, pool, field, rng = Math.random, allWords = pool) {
   const answer = word[field];
-  const ds = distractors(answer, [pool, allWords], field, rng, 3);
+  const ds = distractors(word, [pool, allWords], field, rng, 3);
   const choices = shuffle([answer, ...ds], rng);
   return { word, choices, answerIndex: choices.indexOf(answer) };
 }
@@ -62,7 +64,8 @@ export function gapQuestion(sentence, words, rng = Math.random, allWords = words
   if (!idxs.length) return null;
   const i = idxs[Math.floor(rng() * idxs.length)];
   const answer = sentence.tokens[i];
-  const ds = distractors(answer, [words.filter((w) => !w.proper), allWords.filter((w) => !w.proper)], "hanzi", rng, 3);
+  const aw = known.get(answer);
+  const ds = distractors(aw, [words.filter((w) => !w.proper), allWords.filter((w) => !w.proper)], "hanzi", rng, 3, (w) => !!aw.fr && w.fr === aw.fr);
   return {
     before: sentence.tokens.slice(0, i).join(""),
     after: sentence.tokens.slice(i + 1).join(""),

@@ -100,7 +100,7 @@ export function render(root, ctx) {
     root.querySelector(".score").textContent = `${good} bonnes / ${total}`;
     root.querySelector(".rline").classList.add(ok ? "ok" : "bad");
     root.querySelector(".rtools").remove();
-    root.querySelector(".foot").innerHTML = `<p class="${ok ? "pyok" : "pybad"}">${ok ? "Correct" : "Pas tout à fait"}</p>${sentenceInfo()}<button class="next">Suivant ›</button>`;
+    root.querySelector(".foot").innerHTML = `<p class="${ok ? "pyok" : "pybad"}">${ok ? "Correct" : "Pas tout à fait — phrase du manuel :"}</p>${sentenceInfo()}<button class="next">Suivant ›</button>`;
     speak(q.s.hanzi);
   }
   function answerGap(i) {
