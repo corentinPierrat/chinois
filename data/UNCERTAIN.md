@@ -7,7 +7,7 @@ Rien ne manque dans les listes de vocabulaire numérotées : les mots ① à ⑫
 ## Remarques générales
 
 - **Pinyin des titres** : seul le titre de la leçon 1 a son pinyin imprimé sur les photos. Pour les leçons 2 à 8, je l'ai recomposé à partir du pinyin imprimé dans les mots et les dialogues (L2 « Wǒ jiào Lǐ Wén » : le pinyin de 李文 n'apparaît nulle part sur les photos). Les traductions françaises (titres, mots, phrases) ont été ajoutées par moi.
-- **Notes manuscrites** : « 法国 fǎguó = France » (p.002) est devenu le mot `L1-N1` ; « 年 nián » (p.028) est devenu `L5-N1` (traduit « year / année », traduction non écrite). « 您 = respect » n'est pas un nouveau mot (déjà couvert par la règle du 您). Les réponses d'exercices griffonnées ont été ignorées.
+- **Notes manuscrites** : « 法国 fǎguó = France » (p.002) n'a pas été ajouté : 法国 est déjà un mot imprimé en leçon 3 (`L3-P2`). « 年 nián » (p.028) est devenu `L5-N1` (traduit « year / année », traduction non écrite). « 您 = respect » n'est pas un nouveau mot (déjà couvert par la règle du 您). Les réponses d'exercices griffonnées ont été ignorées.
 - **Règles « déduites »** (`derived: true`) : comme aucune page de grammaire (小语讲堂) des leçons 1 et 2 n'a été photographiée, j'ai seulement relevé ce qui se répète dans leurs dialogues (salutations en 好, 们, 叫 + nom). Toutes les autres règles reprennent ce qui est écrit dans le manuel.
 - Le pinyin est conservé tel qu'il est imprimé, y compris quand il diffère de l'usage courant (voir ci-dessous).
 
@@ -62,6 +62,3 @@ Rien ne manque dans les listes de vocabulaire numérotées : les mots ① à ⑫
 - Le motif 还没……呢 (« pas encore ») apparaît dans le texte 3, mais le manuel ne l'explique pas sur les pages photographiées : pas de règle créée.
 - L8-T2-S3 : le pinyin imprimé est serré (« liǎngdiǎn », « néngdào ») ; espaces ajoutés comme dans les autres textes.
 
-## Note technique (pour le développement)
-
-Le test existant `tests/pinyin-data.test.mjs` échoue sur 4 mots dont le pinyin est imprimé ainsi dans le manuel : 谁 « shéi/shuí », 里 « li/lǐ » (deux prononciations), 面条儿 « miàntiáor », 哪儿 « nǎr » (le 儿 final ne compte pas comme une syllabe). Les données sont fidèles au livre : c'est `syllables()` ou le test qui doit gérer ces cas.

@@ -207,18 +207,6 @@
    "source": "manuel"
   },
   {
-   "id": "L1-N1",
-   "lesson": 1,
-   "n": 1,
-   "hanzi": "法国",
-   "pinyin": "fǎguó",
-   "pos": "",
-   "en": "France",
-   "fr": "France",
-   "proper": true,
-   "source": "notes"
-  },
-  {
    "id": "L2-W1",
    "lesson": 2,
    "n": 1,
@@ -2377,7 +2365,7 @@
    "hanzi": "你工作还忙吗？",
    "pinyin": "Nǐ gōngzuò hái máng ma?",
    "en": "Are you still busy with work?",
-   "fr": "Tu es toujours occupé(e) par le travail ?",
+   "fr": "Tu es toujours occupée par le travail ?",
    "tokens": [
     "你",
     "工作",
@@ -2395,7 +2383,7 @@
    "hanzi": "对，还很忙。你也很忙吗？",
    "pinyin": "Duì, hái hěn máng. Nǐ yě hěn máng ma?",
    "en": "Yes, I'm still very busy. Are you busy too?",
-   "fr": "Oui, toujours très occupé(e). Tu es occupée aussi ?",
+   "fr": "Oui, toujours très occupée. Tu es occupée aussi ?",
    "tokens": [
     "对",
     "，",
@@ -2458,7 +2446,7 @@
    "hanzi": "一飞忙吗？",
    "pinyin": "Yīfēi máng ma?",
    "en": "Is Yifei busy?",
-   "fr": "Yifei est-il occupé ?",
+   "fr": "Yifei est-elle occupée ?",
    "tokens": [
     "一飞",
     "忙",
@@ -2629,8 +2617,7 @@
    "en": "Yes. I have two children, a son and a daughter.",
    "fr": "Oui. J'ai deux enfants, un fils et une fille.",
    "tokens": [
-    "是",
-    "的",
+    "是的",
     "。",
     "我",
     "有",
@@ -2794,8 +2781,7 @@
    "tokens": [
     "你",
     "会",
-    "做",
-    "饭",
+    "做饭",
     "吗",
     "？"
    ]
@@ -2859,8 +2845,7 @@
     "星期天",
     "我",
     "也",
-    "做",
-    "饭",
+    "做饭",
     "。"
    ]
   },
@@ -3294,8 +3279,7 @@
    "en": "Alright, let's meet at 2:00 in the afternoon.",
    "fr": "D'accord, retrouvons-nous à deux heures de l'après-midi.",
    "tokens": [
-    "好",
-    "的",
+    "好的",
     "，",
     "我们",
     "下午",
@@ -3362,8 +3346,7 @@
    "en": "Okay. How about tomorrow?",
    "fr": "D'accord. Et demain ?",
    "tokens": [
-    "好",
-    "的",
+    "好的",
     "。",
     "明天",
     "呢",
@@ -3481,8 +3464,7 @@
    "en": "Alright, could you go to the store to buy some vegetables?",
    "fr": "D'accord, va acheter quelques légumes au magasin.",
    "tokens": [
-    "好",
-    "的",
+    "好的",
     "，",
     "你",
     "去",
@@ -3523,7 +3505,7 @@
    "hanzi": "房间外有一只小猫。",
    "pinyin": "Fángjiān wài yǒu yì zhī xiǎo māo.",
    "en": "There is a little cat outside the room.",
-   "fr": "Il y a un petit chat devant la pièce.",
+   "fr": "Il y a un petit chat à l'extérieur de la pièce.",
    "tokens": [
     "房间",
     "外",
@@ -3640,8 +3622,7 @@
    "en": "Okay. Can you arrive at 2:00 in the afternoon?",
    "fr": "D'accord. Tu peux être là à deux heures de l'après-midi ?",
    "tokens": [
-    "好",
-    "的",
+    "好的",
     "。",
     "下午",
     "两",
@@ -3742,8 +3723,7 @@
    "en": "True. My father also works at a hospital, and he's extremely busy too.",
    "fr": "Oui. Mon père travaille aussi à l'hôpital, il est aussi très occupé.",
    "tokens": [
-    "是",
-    "的",
+    "是的",
     "。",
     "我",
     "爸爸",
@@ -3801,7 +3781,7 @@
    "title": "您 : « vous » de respect",
    "structure": "",
    "fr": "« 您 » = « tu / vous » respectueux",
-   "explanation": "« 您 » est une forme honorifique de « 你 ». On l'emploie pour s'adresser aux personnes plus âgées ou aux personnes que l'on respecte, par exemple un professeur.",
+   "explanation": "« 您 » est un pronom de politesse (honorifique) : on l'emploie pour s'adresser aux personnes plus âgées ou aux personnes que l'on respecte.",
    "examples": [
     "L1-T2-S2"
    ],
@@ -3859,7 +3839,7 @@
    "title": "没关系 / 没事",
    "structure": "",
    "fr": "« Ce n'est pas grave »",
-   "explanation": "Pour répondre à « 对不起 », on dit « 没关系 ». À l'oral, on dit aussi « 没事 » ou « 没事没事 ».",
+   "explanation": "À l'oral, on dit aussi « 没事 » ou « 没事没事 » (au lieu de « 没关系 »).",
    "examples": [
     "L2-T2-S3",
     "L2-T2-S4"
@@ -3961,7 +3941,7 @@
    "title": "« 2 » : 二 ou 两 ?",
    "structure": "两 + classificateur + N",
    "fr": "deux : èr ou liǎng",
-   "explanation": "Le chiffre « 2 » s'écrit et se lit « 二 (èr) » ou « 两 (liǎng) ». En général, on emploie « 二 » dans les nombres ordinaux, comme « 第二 », et dans les nombres comme 十二, 二十二, 一百二十二. Devant un classificateur, on emploie « 两 » : 两个人, 两口人, 两本书.",
+   "explanation": "Le chiffre « 2 » s'écrit et se lit « 二 (èr) » ou « 两 (liǎng) ». En général, on emploie « 二 » dans les nombres ordinaux, comme « 第二 », et « 两 » devant un classificateur. Exemples du manuel : 十二, 二十二, 一百二十二 ; 两个人, 两口人, 两本书.",
    "examples": [
     "L4-T2-S1",
     "L4-T3-S2",
@@ -4177,7 +4157,7 @@
    "title": "Dire l'heure : 点 et 分",
    "structure": "… 点 + … (分)",
    "fr": "« … heures … (minutes) »",
-   "explanation": "« 点 » sert pour l'heure pile, « 分 » pour les minutes ; « 分 » peut être omis. Mais quand il est « 十分 » (… h 10), on ne peut pas omettre « 分 » ; en dessous de dix minutes, il faut dire « 零 ». Exemples du manuel : 九点 (9:00), 十五点四十 (15:40), 二十一点十分 (21:10), 二十二点零五 (22:05).",
+   "explanation": "« 点 » sert pour l'heure pile, « 分 » pour les minutes ; « 分 » peut être omis. Mais pour 10 minutes pile, on dit « 十分 » et on ne peut pas omettre « 分 ». En dessous de dix minutes, il faut dire « 零 ». Exemples du manuel : 九点 (9:00), 十五点四十 (15:40), 二十一点十分 (21:10), 二十二点零五 (22:05).",
    "examples": [
     "L7-T1-S1",
     "L7-T1-S2",

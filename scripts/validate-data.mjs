@@ -26,12 +26,18 @@ export function validate(data) {
   const warnings = [];
   const gaps = [];
   const ids = new Set();
+  data = { ...(data ?? {}) }; // null items are filtered out below without mutating the caller's object
 
   for (const coll of Object.keys(REQUIRED)) {
     if (!Array.isArray(data?.[coll])) {
       errors.push(`missing array "${coll}"`);
       continue;
     }
+    data[coll] = data[coll].filter((item, i) => {
+      if (item && typeof item === "object") return true;
+      errors.push(`${coll}[${i}]: item is not an object`);
+      return false;
+    });
     for (const item of data[coll]) {
       const label = `${coll} ${item?.id ?? "(no id)"}`;
       for (const f of REQUIRED[coll]) {
