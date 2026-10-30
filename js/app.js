@@ -9,7 +9,7 @@ const ALL = [1, 2, 3, 4, 5, 6, 7, 8];
 const ROUTES = {
   "#/": "./views/home.js",
   "#/mots": "./views/words.js",
-  "#/reconnaitre": null,
+  "#/reconnaitre": "./views/recognize.js",
   "#/ecrire": null,
   "#/tons": null,
   "#/regles": null,

@@ -31,3 +31,17 @@ h2{font-size:1.05rem;margin:0}
 .speak{min-width:44px;min-height:44px;border-radius:50%;border:0;background:var(--chip);font-size:1.2rem}
 .empty,.soon{text-align:center;color:var(--muted);padding:48px 16px}
 .mode:disabled{opacity:.45;pointer-events:none}
+.seg{display:flex;gap:0;margin:4px 0 8px;border:1px solid var(--line);border-radius:22px;overflow:hidden;background:var(--chip)}
+.seg button{flex:1;min-height:44px;border:0;background:none;font-weight:600}
+.seg button[aria-pressed=true]{background:var(--accent);color:var(--on-accent)}
+.score{margin-left:auto;color:var(--muted);font-size:.95rem;white-space:nowrap}
+.prompt{display:flex;align-items:center;justify-content:center;gap:8px;padding:20px 8px 12px;text-align:center}
+.prompt .hanzi{font-size:88px;line-height:1.1;word-break:keep-all}
+.prompt.long .hanzi{font-size:56px}
+.choices{display:grid;gap:10px;margin-top:8px}
+.choice{min-height:56px;padding:10px 14px;border-radius:14px;border:2px solid var(--line);background:var(--card);font-size:1.1rem;font-weight:600;text-align:center;transition:background .12s,border-color .12s}
+.choice:active{transform:scale(.98)}
+.choice.ok{background:#2e9e5b;border-color:#2e9e5b;color:#fff}
+.choice.bad{background:#d64541;border-color:#d64541;color:#fff}
+.choices.done .choice{pointer-events:none}
+.next{width:100%;min-height:52px;margin-top:14px;border:0;border-radius:14px;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:1.05rem}
