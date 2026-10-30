@@ -60,13 +60,19 @@ function segment(chars, from = 0) {
 
 export function syllables(pinyin) {
   const out = [];
-  const chunks = String(pinyin).match(/\p{L}[\p{L}\p{M}]*/gu) || [];
+  const chunks = String(pinyin).replace(/\/\S*/g, "").match(/\p{L}[\p{L}\p{M}]*/gu) || [];
   for (const chunk of chunks) {
     const letters = [...chunk.normalize("NFC")];
     // Skip Latin acronyms such as "AI" (all caps, 2+ letters).
     if (letters.length > 1 && letters.every((c) => c === c.toUpperCase() && c !== c.toLowerCase())) continue;
     const chars = letters.map(decompose);
-    const spans = segment(chars) || [[0, chars.length]];
+    let spans = segment(chars);
+    if (!spans && chars.length > 1 && chars[chars.length - 1].ch === "r") {
+      // erhua: trailing "r" is its own syllable (matches the 儿 character)
+      const head = segment(chars.slice(0, -1));
+      if (head) spans = [...head, [chars.length - 1, chars.length]];
+    }
+    spans = spans || [[0, chars.length]];
     for (const [a, b] of spans) {
       const slice = chars.slice(a, b);
       const tone = slice.find((x) => x.tone)?.tone || 5;

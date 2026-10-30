@@ -27,3 +27,14 @@ test("xī'ān vs xiān", () => {
   assert.deepEqual(bases("xī'ān"), ["xi", "an"]);
   assert.deepEqual(bases("xiān"), ["xian"]);
 });
+test("alternative readings use the first one", () => {
+  assert.deepEqual(syllables("shéi/shuí").map((x) => [x.base, x.tone]), [["shei", 2]]);
+  assert.deepEqual(syllables("li/lǐ").map((x) => [x.base, x.tone]), [["li", 5]]);
+});
+test("erhua gives a separate r syllable", () => {
+  assert.deepEqual(bases("miàntiáor"), ["mian", "tiao", "r"]);
+  assert.deepEqual(tones("miàntiáor"), [4, 2, 5]);
+  assert.deepEqual(bases("nǎr"), ["na", "r"]);
+  assert.deepEqual(tones("nǎr"), [3, 5]);
+  assert.deepEqual(syllables("nǎr")[1], { text: "r", base: "r", tone: 5 });
+});
