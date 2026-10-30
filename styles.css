@@ -1,5 +1,5 @@
-:root{--bg:#faf7f5;--card:#fff;--fg:#222;--muted:#777;--line:#e8e0dc;--accent:#c0392b;--on-accent:#fff;--chip:#f0e8e4}
-@media (prefers-color-scheme:dark){:root{--bg:#161413;--card:#221f1e;--fg:#f2ece9;--muted:#9d9490;--line:#35302e;--chip:#2e2927}}
+:root{--bg:#faf7f5;--card:#fff;--fg:#222;--muted:#777;--line:#e8e0dc;--accent:#c0392b;--on-accent:#fff;--chip:#f0e8e4;--hw-stroke:#222222;--hw-outline:#d9cfca;--hw-draw:#c0392b;--hw-hint:#2f7fd6;--grid:#e3b7b1}
+@media (prefers-color-scheme:dark){:root{--bg:#161413;--card:#221f1e;--fg:#f2ece9;--muted:#9d9490;--line:#35302e;--chip:#2e2927;--hw-stroke:#f2ece9;--hw-outline:#4d4542;--hw-draw:#ff6b5b;--hw-hint:#5aa9ff;--grid:#5a3a36}}
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
 html,body{margin:0;background:var(--bg);color:var(--fg)}
 body{font:16px/1.4 -apple-system,"SF Pro Text",system-ui,sans-serif;-webkit-text-size-adjust:100%}
@@ -45,3 +45,18 @@ h2{font-size:1.05rem;margin:0}
 .choice.bad{background:#d64541;border-color:#d64541;color:#fff}
 .choices.done .choice{pointer-events:none}
 .next{width:100%;min-height:52px;margin-top:14px;border:0;border-radius:14px;background:var(--accent);color:var(--on-accent);font-weight:700;font-size:1.05rem}
+.wprompt{text-align:center;padding:4px 8px 10px}
+.wfr{font-size:1.25rem;font-weight:700}
+.wword{font-size:2.4rem;line-height:1.25;margin:4px 0 0;display:flex;justify-content:center;align-items:center;gap:4px}
+.wword .blank{display:inline-block;width:1em;height:1em;border:2px dashed var(--accent);border-radius:6px;background:var(--chip)}
+.wpy{color:var(--accent);font-size:1.1rem}
+.wgrid{position:relative;margin:0 auto;width:min(80vw,300px);height:min(80vw,300px);background:var(--card);border-radius:12px;box-shadow:0 1px 3px rgba(0,0,0,.08);touch-action:none;-webkit-user-select:none;user-select:none;-webkit-touch-callout:none;overflow:hidden;transition:box-shadow .2s}
+.wgrid.ok{box-shadow:0 0 0 3px #2e9e5b}
+.wgrid.bad{box-shadow:0 0 0 3px #d64541}
+.mizige{position:absolute;inset:0;width:100%;height:100%;stroke:var(--grid);pointer-events:none}
+.wtarget{position:absolute;inset:0}
+.wtarget svg{display:block}
+.wstatus{text-align:center;min-height:1.6em;margin:10px 0 4px;color:var(--muted);font-weight:600}
+.wstatus.good{color:#2e9e5b}
+.wstatus.warn{color:#d64541}
+.wtools{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:6px 0 0}

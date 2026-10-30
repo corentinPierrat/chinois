@@ -10,7 +10,7 @@ const ROUTES = {
   "#/": "./views/home.js",
   "#/mots": "./views/words.js",
   "#/reconnaitre": "./views/recognize.js",
-  "#/ecrire": null,
+  "#/ecrire": "./views/write.js",
   "#/tons": null,
   "#/regles": null,
   "#/progres": null,
