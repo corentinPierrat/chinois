@@ -60,3 +60,23 @@ h2{font-size:1.05rem;margin:0}
 .wstatus.good{color:#2e9e5b}
 .wstatus.warn{color:#d64541}
 .wtools{display:flex;justify-content:center;flex-wrap:wrap;gap:8px;margin:6px 0 0}
+.tslots{display:flex;justify-content:center;gap:8px;margin:8px 0}
+.tslot{flex:1;min-width:0;max-width:130px;display:flex;flex-direction:column;gap:6px;padding:6px;border-radius:12px;border:2px solid transparent}
+.tslot.good{border-color:#2e9e5b}
+.tslot.wrong{border-color:#d64541}
+.tbase{text-align:center;font-size:1.2rem;font-weight:700;color:var(--accent)}
+.tbtn{min-height:46px;padding:4px 2px;border-radius:10px;border:2px solid var(--line);background:var(--card);font-size:1.15rem;font-weight:600;line-height:1.1}
+.tbtn small{display:block;font-size:.6rem;font-weight:500;color:var(--muted)}
+.tbtn[aria-pressed=true]{border-color:var(--accent);background:var(--chip)}
+.tbtn.ok{background:#2e9e5b;border-color:#2e9e5b;color:#fff}
+.tbtn.ok small{color:#fff}
+.tbtn.bad{background:#d64541;border-color:#d64541;color:#fff}
+.tbtn.bad small{color:#fff}
+.tslots.done .tbtn{pointer-events:none}
+.tfixed{min-height:46px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:.8rem}
+.tslots.tight .tbtn{font-size:1rem}
+.tslots.tight{gap:4px}
+.tpy{text-align:center;font-size:1.25rem;min-height:1.6em;margin:6px 0}
+.pyok{color:#2e9e5b;font-weight:700}
+.pybad{color:#d64541;font-weight:700}
+.next:disabled{opacity:.45}

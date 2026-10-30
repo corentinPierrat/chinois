@@ -82,3 +82,15 @@ export function syllables(pinyin) {
   }
   return out;
 }
+
+// Put the tone mark (1-4) on the right vowel of a toneless syllable; 5 = unchanged.
+const MARKS = { a: "āáǎà", e: "ēéěè", i: "īíǐì", o: "ōóǒò", u: "ūúǔù", "ü": "ǖǘǚǜ" };
+export function markTone(base, tone) {
+  if (!(tone >= 1 && tone <= 4)) return base;
+  const s = [...base];
+  let i = s.findIndex((c) => c === "a" || c === "e");
+  if (i < 0) i = base.includes("ou") ? s.indexOf("o") : s.findLastIndex((c) => c in MARKS);
+  if (i < 0) return base;
+  s[i] = MARKS[s[i]][tone - 1];
+  return s.join("");
+}

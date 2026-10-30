@@ -11,7 +11,7 @@ const ROUTES = {
   "#/mots": "./views/words.js",
   "#/reconnaitre": "./views/recognize.js",
   "#/ecrire": "./views/write.js",
-  "#/tons": null,
+  "#/tons": "./views/tones.js",
   "#/regles": null,
   "#/progres": null,
 };
@@ -75,3 +75,9 @@ async function start() {
   route();
 }
 start();
+
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("sw.js").catch((e) => console.warn("SW registration failed", e));
+  });
+}

@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { syllables } from "../js/pinyin.js";
+import { syllables, markTone } from "../js/pinyin.js";
 
 const tones = (s) => syllables(s).map((x) => x.tone);
 const bases = (s) => syllables(s).map((x) => x.base);
@@ -37,4 +37,16 @@ test("erhua gives a separate r syllable", () => {
   assert.deepEqual(bases("nǎr"), ["na", "r"]);
   assert.deepEqual(tones("nǎr"), [3, 5]);
   assert.deepEqual(syllables("nǎr")[1], { text: "r", base: "r", tone: 5 });
+});
+
+test("markTone placement", () => {
+  assert.equal(markTone("xie", 4), "xiè");
+  assert.equal(markTone("hao", 3), "hǎo");
+  assert.equal(markTone("gou", 3), "gǒu");
+  assert.equal(markTone("liu", 2), "liú");
+  assert.equal(markTone("gui", 4), "guì");
+  assert.equal(markTone("nü", 3), "nǚ");
+  assert.equal(markTone("lüe", 4), "lüè");
+  assert.equal(markTone("ma", 5), "ma");
+  assert.equal(markTone("shu", 1), "shū");
 });
