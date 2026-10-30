@@ -13,7 +13,7 @@ const ROUTES = {
   "#/ecrire": "./views/write.js",
   "#/tons": "./views/tones.js",
   "#/regles": "./views/rules.js",
-  "#/progres": null,
+  "#/progres": "./views/progress.js",
 };
 
 const root = document.getElementById("app");

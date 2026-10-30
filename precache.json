@@ -1,5 +1,5 @@
 {
-  "version": "4f3ea9699156",
+  "version": "31e0b1b4c54a",
   "files": [
     "data/hanzi/一.json",
     "data/hanzi/上.json",
@@ -194,6 +194,7 @@
     "js/srs.js",
     "js/storage.js",
     "js/views/home.js",
+    "js/views/progress.js",
     "js/views/recognize.js",
     "js/views/rules.js",
     "js/views/tones.js",

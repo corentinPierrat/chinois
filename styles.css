@@ -110,3 +110,18 @@ h2{font-size:1.05rem;margin:0}
 .rsol .py{color:var(--accent)}
 .foot{text-align:center}
 .rtools .mode.primary{background:var(--accent);border-color:var(--accent);color:var(--on-accent)}
+.plesson{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin-bottom:10px}
+.plesson h3{margin:0 0 6px;font-size:1rem}
+.plesson h3 small{color:var(--muted);font-weight:400}
+.prow{display:flex;align-items:center;gap:8px;margin:4px 0;font-size:.85rem}
+.plabel{width:62px;color:var(--muted)}
+.pbar{position:relative;flex:1;height:10px;border-radius:5px;background:var(--chip);overflow:hidden}
+.pbar i{position:absolute;left:0;top:0;bottom:0;display:block}
+.pseen{background:var(--accent);opacity:.35}
+.pmast{background:#2e9e5b}
+.pnum{width:62px;text-align:right;font-variant-numeric:tabular-nums;color:var(--muted)}
+.miss{display:flex;align-items:center;gap:10px;padding:6px 0;border-bottom:1px solid var(--line)}
+.mhz{font-size:1.6rem;min-width:44px}
+.mmain{flex:1;min-width:0}
+.mn{color:#d64541}
+.reset{margin:16px 0}
