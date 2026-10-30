@@ -1,1 +1,1 @@
-{"name":"revision-chinois","private":true,"type":"module","scripts":{"test":"node --test tests/","validate":"node scripts/validate-data.mjs"}}
+{"name":"revision-chinois","private":true,"type":"module","scripts":{"test":"node --test tests/","precache":"node scripts/build-precache.mjs","validate":"node scripts/validate-data.mjs"}}
