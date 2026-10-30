@@ -1,0 +1,1 @@
+{"name":"revision-chinois","private":true,"type":"module","scripts":{"test":"node --test tests/","validate":"node scripts/validate-data.mjs"}}
