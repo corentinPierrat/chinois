@@ -1,6 +1,6 @@
 import { wordsFor } from "../data.js";
 import { writeQueue } from "../quiz.js";
-import { itemKey, record, pickNext } from "../srs.js";
+import { itemKey, record, pickNext, remaining } from "../srs.js";
 import { speak } from "../speech.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -54,6 +54,7 @@ export function render(root, ctx) {
 
   let alive = true, writer = null, timer = null;
   let chars = [], firstPass = [], last = null;
+  const done = new Set(); // keys written correctly this session
   let cur = null; // { char, word, mistakes, helped, done, practice, total }
   let good = 0, total = 0, outline = false;
 
@@ -119,7 +120,7 @@ export function render(root, ctx) {
   function next() {
     clear();
     let c = firstPass.shift();
-    if (!c) c = keyChar(pickNext(chars.map((ch) => itemKey("write", ch)), ctx.progress, Math.random, last));
+    if (!c) c = keyChar(pickNext(remaining(chars.map((ch) => itemKey("write", ch)), done), ctx.progress, Math.random, last));
     last = itemKey("write", c);
     const words = pool.filter((w) => w.hanzi.includes(c));
     const word = words[Math.floor(Math.random() * words.length)];
@@ -187,6 +188,7 @@ export function render(root, ctx) {
     const ok = mistakes <= MAX_MISTAKES && !cur.helped;
     total++; if (ok) good++;
     ctx.progress = record(ctx.progress, itemKey("write", cur.char), ok, Date.now());
+    if (ok) done.add(itemKey("write", cur.char));
     ctx.saveProgress();
     root.querySelector(".score").textContent = `${good} réussis / ${total}`;
     root.querySelector(".wgrid").classList.add(ok ? "ok" : "bad");

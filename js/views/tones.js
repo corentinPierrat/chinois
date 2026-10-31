@@ -1,7 +1,7 @@
 import { wordsFor } from "../data.js";
 import { syllables, markTone } from "../pinyin.js";
 import { cjkChars } from "../quiz.js";
-import { itemKey, record, pickNext } from "../srs.js";
+import { itemKey, record, pickNext, remaining } from "../srs.js";
 import { speak, canSpeak } from "../speech.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -19,13 +19,14 @@ export function render(root, ctx) {
   }
   const byId = new Map(pool.map((w) => [String(w.id), w]));
   let good = 0, total = 0, last = null, word = null, syl = [], picks = [], checked = false, timer = null;
+  const done = new Set(); // keys answered correctly this session
 
   const clear = () => { if (timer) { clearTimeout(timer); timer = null; } };
   const askable = (s) => s.base !== "r";
 
   function next() {
     clear();
-    const key = pickNext(pool.map((w) => itemKey("tone", w.id)), ctx.progress, Math.random, last);
+    const key = pickNext(remaining(pool.map((w) => itemKey("tone", w.id)), done), ctx.progress, Math.random, last);
     last = key;
     word = byId.get(key.slice(key.indexOf(":") + 1));
     syl = syllables(word.pinyin);
@@ -75,6 +76,7 @@ export function render(root, ctx) {
     });
     total++; if (all) good++;
     ctx.progress = record(ctx.progress, itemKey("tone", word.id), all, Date.now());
+    if (all) done.add(itemKey("tone", word.id));
     ctx.saveProgress();
     root.querySelector(".score").textContent = `${good} bonnes / ${total}`;
     root.querySelector(".tslots").classList.add("done");

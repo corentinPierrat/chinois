@@ -25,3 +25,11 @@ export function pickNext(keys, progress, rng = Math.random, last = null) {
   }
   return pick;
 }
+
+// Keys not yet answered correctly this session; once all are, start a new round.
+export function remaining(keys, done) {
+  const left = keys.filter((k) => !done.has(k));
+  if (left.length) return left;
+  done.clear();
+  return keys;
+}

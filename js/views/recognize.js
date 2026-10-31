@@ -1,6 +1,6 @@
 import { wordsFor } from "../data.js";
 import { makeChoiceQuestion } from "../quiz.js";
-import { itemKey, record, pickNext } from "../srs.js";
+import { itemKey, record, pickNext, remaining } from "../srs.js";
 import { speak, canSpeak } from "../speech.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -16,13 +16,14 @@ export function render(root, ctx) {
   const byId = new Map(pool.map((w) => [w.id, w]));
   let mode = "rec"; // "rec" = sens, "recpy" = pinyin
   let good = 0, total = 0, last = null, q = null, answered = false, timer = null;
+  const done = new Set(); // keys answered correctly this session
 
   const clear = () => { if (timer) { clearTimeout(timer); timer = null; } };
 
   function next() {
     clear();
     const keys = pool.map((w) => itemKey(mode, w.id));
-    const key = pickNext(keys, ctx.progress, Math.random, last);
+    const key = pickNext(remaining(keys, done), ctx.progress, Math.random, last);
     last = key;
     const word = byId.get(keyId(key));
     q = makeChoiceQuestion(word, pool, mode === "rec" ? "fr" : "pinyin", Math.random, ctx.data.words);
@@ -50,6 +51,7 @@ export function render(root, ctx) {
     const ok = i === q.answerIndex;
     total++; if (ok) good++;
     ctx.progress = record(ctx.progress, itemKey(mode, q.word.id), ok, Date.now());
+    if (ok) done.add(itemKey(mode, q.word.id));
     ctx.saveProgress();
     const btns = root.querySelectorAll(".choice");
     btns[q.answerIndex].classList.add("ok");

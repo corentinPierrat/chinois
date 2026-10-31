@@ -1,6 +1,6 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { itemKey, record, pickNext } from "../js/srs.js";
+import { itemKey, record, pickNext, remaining } from "../js/srs.js";
 
 test("itemKey", () => assert.equal(itemKey("rec", "L1-W1"), "rec:L1-W1"));
 test("correct raises box", () => {
@@ -40,3 +40,13 @@ test("pickNext never returns last when several keys", () => {
 });
 test("pickNext with single key ignores last", () => assert.equal(pickNext(["a"], {}, Math.random, "a"), "a"));
 test("pickNext on empty list returns null", () => assert.equal(pickNext([], {}), null));
+test("remaining excludes keys already answered correctly", () => {
+  const done = new Set(["a"]);
+  assert.deepEqual(remaining(["a", "b", "c"], done), ["b", "c"]);
+  assert.equal(done.size, 1);
+});
+test("remaining starts a new round once every key is done", () => {
+  const done = new Set(["a", "b"]);
+  assert.deepEqual(remaining(["a", "b"], done), ["a", "b"]);
+  assert.equal(done.size, 0);
+});
