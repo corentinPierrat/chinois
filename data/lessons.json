@@ -2185,6 +2185,42 @@
    "fr": "fleur",
    "proper": false,
    "source": "notes"
+  },
+  {
+   "id": "L8-N11",
+   "lesson": 8,
+   "n": 11,
+   "hanzi": "车下",
+   "pinyin": "chēxià",
+   "pos": "n.",
+   "en": "under the car",
+   "fr": "en dessous de la voiture",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N12",
+   "lesson": 8,
+   "n": 12,
+   "hanzi": "书",
+   "pinyin": "shū",
+   "pos": "n.",
+   "en": "book",
+   "fr": "livre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N13",
+   "lesson": 8,
+   "n": 13,
+   "hanzi": "了",
+   "pinyin": "le",
+   "pos": "part.",
+   "en": "particle (completed action / change)",
+   "fr": "particule (action accomplie, changement)",
+   "proper": false,
+   "source": "notes"
   }
  ],
  "sentences": [
