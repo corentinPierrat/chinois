@@ -138,3 +138,12 @@ h2{font-size:1.05rem;margin:0}
 .fcard+.hint+.rtools{margin-top:14px}
 .rtools .mode:disabled{opacity:.45}
 @media (prefers-reduced-motion:reduce){.fin{transition:none}}
+.mode small{font-size:.75rem;font-weight:500;opacity:.75;text-align:center;padding:0 6px}
+.tdigit{font-size:3rem;font-weight:800;line-height:1;color:var(--accent);font-variant-numeric:tabular-nums}
+.tresult{text-align:center;padding:16px 0 4px}
+.tnote20{font-size:4rem;font-weight:800;color:#d64541;line-height:1}
+.tnote20.pass{color:#2e9e5b}
+.tnote20 small{font-size:1.4rem;color:var(--muted)}
+.tend{margin:20px 0;flex-wrap:wrap}
+.tmodes .mode{min-height:100px}
+.miss .py{color:var(--accent)}

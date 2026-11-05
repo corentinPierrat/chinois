@@ -1,0 +1,953 @@
+{
+ "title": "Infographie HSK 1",
+ "cards": [
+  {
+   "hanzi": "人",
+   "pinyin": "rén",
+   "fr": "personne",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "我",
+   "pinyin": "wǒ",
+   "fr": "je, moi",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "我们",
+   "pinyin": "wǒmen",
+   "fr": "nous",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "你",
+   "pinyin": "nǐ",
+   "fr": "tu, toi",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "你们",
+   "pinyin": "nǐmen",
+   "fr": "vous (pluriel)",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "他",
+   "pinyin": "tā",
+   "fr": "il, lui",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "他们",
+   "pinyin": "tāmen",
+   "fr": "ils, eux",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "她",
+   "pinyin": "tā",
+   "fr": "elle",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "她们",
+   "pinyin": "tāmen",
+   "fr": "elles",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "爸爸",
+   "pinyin": "bàba",
+   "fr": "papa",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "妈妈",
+   "pinyin": "māma",
+   "fr": "maman",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "儿子",
+   "pinyin": "érzi",
+   "fr": "fils",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "女儿",
+   "pinyin": "nǚ’ér",
+   "fr": "fille (enfant)",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "老师",
+   "pinyin": "lǎoshī",
+   "fr": "professeur",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "学生",
+   "pinyin": "xuésheng",
+   "fr": "étudiant, élève",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "朋友",
+   "pinyin": "péngyou",
+   "fr": "ami",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "同学",
+   "pinyin": "tóngxué",
+   "fr": "camarade de classe",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "先生",
+   "pinyin": "xiānsheng",
+   "fr": "monsieur",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "小姐",
+   "pinyin": "xiǎojiě",
+   "fr": "mademoiselle",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "医生",
+   "pinyin": "yīshēng",
+   "fr": "médecin",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "孩子",
+   "pinyin": "háizi",
+   "fr": "enfant",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "谁",
+   "pinyin": "shéi / shuí",
+   "fr": "qui ?",
+   "word": "Personnes"
+  },
+  {
+   "hanzi": "地点",
+   "pinyin": "dìdiǎn",
+   "fr": "lieu",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "在",
+   "pinyin": "zài",
+   "fr": "être à, se trouver",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "这儿",
+   "pinyin": "zhèr",
+   "fr": "ici",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "那儿",
+   "pinyin": "nàr",
+   "fr": "là-bas",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "医院",
+   "pinyin": "yīyuàn",
+   "fr": "hôpital",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "商店",
+   "pinyin": "shāngdiàn",
+   "fr": "magasin",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "中国",
+   "pinyin": "Zhōngguó",
+   "fr": "Chine",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "北京",
+   "pinyin": "Běijīng",
+   "fr": "Pékin",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "火车站",
+   "pinyin": "huǒchēzhàn",
+   "fr": "gare",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "饭馆",
+   "pinyin": "fànguǎn",
+   "fr": "restaurant",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "学校",
+   "pinyin": "xuéxiào",
+   "fr": "école",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "fr": "maison, famille",
+   "word": "Lieux"
+  },
+  {
+   "hanzi": "东西",
+   "pinyin": "dōngxi",
+   "fr": "chose, objet",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "fr": "chaise",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "电脑",
+   "pinyin": "diànnǎo",
+   "fr": "ordinateur",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "桌子",
+   "pinyin": "zhuōzi",
+   "fr": "table, bureau",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "电视",
+   "pinyin": "diànshì",
+   "fr": "télévision",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "书",
+   "pinyin": "shū",
+   "fr": "livre",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "衣服",
+   "pinyin": "yīfu",
+   "fr": "vêtement",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "fr": "eau",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "fr": "thé",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "杯子",
+   "pinyin": "bēizi",
+   "fr": "tasse, verre",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "fr": "pomme",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "水果",
+   "pinyin": "shuǐguǒ",
+   "fr": "fruit",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "米饭",
+   "pinyin": "mǐfàn",
+   "fr": "riz (cuit)",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "菜",
+   "pinyin": "cài",
+   "fr": "plat ; légume",
+   "word": "Objets"
+  },
+  {
+   "hanzi": "方向",
+   "pinyin": "fāngxiàng",
+   "fr": "direction",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "上",
+   "pinyin": "shàng",
+   "fr": "dessus, en haut",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "下",
+   "pinyin": "xià",
+   "fr": "dessous, en bas",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "前面",
+   "pinyin": "qiánmiàn",
+   "fr": "devant",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "后面",
+   "pinyin": "hòumiàn",
+   "fr": "derrière",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "里面",
+   "pinyin": "lǐmiàn",
+   "fr": "dedans, à l’intérieur",
+   "word": "Directions"
+  },
+  {
+   "hanzi": "谢谢",
+   "pinyin": "xièxie",
+   "fr": "merci",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "不客气",
+   "pinyin": "bú kèqi",
+   "fr": "de rien",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "再见",
+   "pinyin": "zàijiàn",
+   "fr": "au revoir",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "对不起",
+   "pinyin": "duìbuqǐ",
+   "fr": "pardon, désolé",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "没关系",
+   "pinyin": "méi guānxi",
+   "fr": "ce n’est pas grave",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "请",
+   "pinyin": "qǐng",
+   "fr": "s’il vous plaît ; inviter",
+   "word": "Politesse"
+  },
+  {
+   "hanzi": "零",
+   "pinyin": "líng",
+   "fr": "0 zéro",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "一",
+   "pinyin": "yī",
+   "fr": "1 un",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "二",
+   "pinyin": "èr",
+   "fr": "2 deux",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "三",
+   "pinyin": "sān",
+   "fr": "3 trois",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "四",
+   "pinyin": "sì",
+   "fr": "4 quatre",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "fr": "5 cinq",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "六",
+   "pinyin": "liù",
+   "fr": "6 six",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "七",
+   "pinyin": "qī",
+   "fr": "7 sept",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "八",
+   "pinyin": "bā",
+   "fr": "8 huit",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "fr": "9 neuf",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "十",
+   "pinyin": "shí",
+   "fr": "10 dix",
+   "word": "Nombres"
+  },
+  {
+   "hanzi": "时间",
+   "pinyin": "shíjiān",
+   "fr": "temps (durée)",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "年",
+   "pinyin": "nián",
+   "fr": "année",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "月",
+   "pinyin": "yuè",
+   "fr": "mois",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "日",
+   "pinyin": "rì",
+   "fr": "jour (date)",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "星期",
+   "pinyin": "xīngqī",
+   "fr": "semaine",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "点",
+   "pinyin": "diǎn",
+   "fr": "heure (… heures)",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "分",
+   "pinyin": "fēn",
+   "fr": "minute",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "上午",
+   "pinyin": "shàngwǔ",
+   "fr": "matin",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "中午",
+   "pinyin": "zhōngwǔ",
+   "fr": "midi",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "下午",
+   "pinyin": "xiàwǔ",
+   "fr": "après-midi",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "昨天",
+   "pinyin": "zuótiān",
+   "fr": "hier",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "今天",
+   "pinyin": "jīntiān",
+   "fr": "aujourd’hui",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "明天",
+   "pinyin": "míngtiān",
+   "fr": "demain",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "现在",
+   "pinyin": "xiànzài",
+   "fr": "maintenant",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "时候",
+   "pinyin": "shíhou",
+   "fr": "moment",
+   "word": "Temps"
+  },
+  {
+   "hanzi": "哪儿",
+   "pinyin": "nǎr",
+   "fr": "où ?",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "几",
+   "pinyin": "jǐ",
+   "fr": "combien ? (petit nombre)",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "多少",
+   "pinyin": "duōshao",
+   "fr": "combien ?",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "怎么",
+   "pinyin": "zěnme",
+   "fr": "comment ?",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "怎么样",
+   "pinyin": "zěnmeyàng",
+   "fr": "comment est… ? / et si… ?",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "什么",
+   "pinyin": "shénme",
+   "fr": "quoi ? quel ?",
+   "word": "Questions"
+  },
+  {
+   "hanzi": "爱",
+   "pinyin": "ài",
+   "fr": "aimer",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "看见",
+   "pinyin": "kànjiàn",
+   "fr": "voir",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "喜欢",
+   "pinyin": "xǐhuan",
+   "fr": "aimer bien",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "去",
+   "pinyin": "qù",
+   "fr": "aller",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "写",
+   "pinyin": "xiě",
+   "fr": "écrire",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "看",
+   "pinyin": "kàn",
+   "fr": "regarder",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "坐",
+   "pinyin": "zuò",
+   "fr": "s’asseoir ; prendre (transport)",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "听",
+   "pinyin": "tīng",
+   "fr": "écouter",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "说",
+   "pinyin": "shuō",
+   "fr": "parler, dire",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "学习",
+   "pinyin": "xuéxí",
+   "fr": "étudier",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "钱",
+   "pinyin": "qián",
+   "fr": "argent",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "猫",
+   "pinyin": "māo",
+   "fr": "chat",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "狗",
+   "pinyin": "gǒu",
+   "fr": "chien",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "fr": "dormir",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "工作",
+   "pinyin": "gōngzuò",
+   "fr": "travailler ; travail",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "名字",
+   "pinyin": "míngzi",
+   "fr": "nom",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "字",
+   "pinyin": "zì",
+   "fr": "caractère",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "电影",
+   "pinyin": "diànyǐng",
+   "fr": "film",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "出租车",
+   "pinyin": "chūzūchē",
+   "fr": "taxi",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "飞机",
+   "pinyin": "fēijī",
+   "fr": "avion",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "汉语",
+   "pinyin": "Hànyǔ",
+   "fr": "chinois (langue)",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "喝",
+   "pinyin": "hē",
+   "fr": "boire",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "吃",
+   "pinyin": "chī",
+   "fr": "manger",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "是",
+   "pinyin": "shì",
+   "fr": "être",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "叫",
+   "pinyin": "jiào",
+   "fr": "s’appeler",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "来",
+   "pinyin": "lái",
+   "fr": "venir",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "回",
+   "pinyin": "huí",
+   "fr": "revenir, rentrer",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "读",
+   "pinyin": "dú",
+   "fr": "lire",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "买",
+   "pinyin": "mǎi",
+   "fr": "acheter",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "想",
+   "pinyin": "xiǎng",
+   "fr": "vouloir ; penser",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "住",
+   "pinyin": "zhù",
+   "fr": "habiter",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "fr": "ouvrir",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "会",
+   "pinyin": "huì",
+   "fr": "savoir (faire)",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "能",
+   "pinyin": "néng",
+   "fr": "pouvoir",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "有",
+   "pinyin": "yǒu",
+   "fr": "avoir ; il y a",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "做",
+   "pinyin": "zuò",
+   "fr": "faire",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "fr": "téléphoner",
+   "word": "Verbes"
+  },
+  {
+   "hanzi": "很",
+   "pinyin": "hěn",
+   "fr": "très",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "太",
+   "pinyin": "tài",
+   "fr": "trop",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "不",
+   "pinyin": "bù",
+   "fr": "ne… pas",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "没",
+   "pinyin": "méi",
+   "fr": "ne… pas (passé, 有)",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "都",
+   "pinyin": "dōu",
+   "fr": "tous, tout",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "大",
+   "pinyin": "dà",
+   "fr": "grand",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "小",
+   "pinyin": "xiǎo",
+   "fr": "petit",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "多",
+   "pinyin": "duō",
+   "fr": "beaucoup",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "少",
+   "pinyin": "shǎo",
+   "fr": "peu",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "冷",
+   "pinyin": "lěng",
+   "fr": "froid",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "热",
+   "pinyin": "rè",
+   "fr": "chaud",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "好",
+   "pinyin": "hǎo",
+   "fr": "bien, bon",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "漂亮",
+   "pinyin": "piàoliang",
+   "fr": "beau, joli",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "高兴",
+   "pinyin": "gāoxìng",
+   "fr": "content",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "个",
+   "pinyin": "gè",
+   "fr": "classificateur général",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "岁",
+   "pinyin": "suì",
+   "fr": "an (âge)",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "块",
+   "pinyin": "kuài",
+   "fr": "morceau ; yuan",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "些",
+   "pinyin": "xiē",
+   "fr": "quelques",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "本",
+   "pinyin": "běn",
+   "fr": "classificateur des livres",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "这",
+   "pinyin": "zhè",
+   "fr": "ce, ceci",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "那",
+   "pinyin": "nà",
+   "fr": "cela",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "喂",
+   "pinyin": "wèi",
+   "fr": "allô",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "天气",
+   "pinyin": "tiānqì",
+   "fr": "météo, temps",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "下雨",
+   "pinyin": "xià yǔ",
+   "fr": "pleuvoir",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "的",
+   "pinyin": "de",
+   "fr": "particule (possession)",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "了",
+   "pinyin": "le",
+   "fr": "particule (action accomplie)",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "吗",
+   "pinyin": "ma",
+   "fr": "particule de question",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "呢",
+   "pinyin": "ne",
+   "fr": "particule (et toi ?)",
+   "word": "Adjectifs & mots outils"
+  },
+  {
+   "hanzi": "和",
+   "pinyin": "hé",
+   "fr": "et",
+   "word": "Adjectifs & mots outils"
+  }
+ ]
+}

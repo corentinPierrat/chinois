@@ -3,12 +3,18 @@ import { speak, canSpeak } from "../speech.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-// Poster deck is loaded once and kept across visits
-let affiche = null;
-const loadAffiche = () => (affiche ||= fetch("data/affiche.json").then((r) => {
-  if (!r.ok) throw new Error(`Chargement impossible: data/affiche.json (${r.status})`);
-  return r.json();
-}).catch((e) => { affiche = null; throw e; }));
+// Extra decks are loaded once and kept across visits
+const decks = new Map();
+const loadDeck = (name) => {
+  if (!decks.has(name)) {
+    const url = `data/${name}.json`;
+    decks.set(name, fetch(url).then((r) => {
+      if (!r.ok) throw new Error(`Chargement impossible: ${url} (${r.status})`);
+      return r.json();
+    }).catch((e) => { decks.delete(name); throw e; }));
+  }
+  return decks.get(name);
+};
 
 export function shuffle(arr, rnd = Math.random) {
   const a = arr.slice();
@@ -21,7 +27,7 @@ export function render(root, ctx) {
   let deck = ctx.lessons.length ? "lecons" : "affiche";
   let cards = [], i = 0, flipped = false;
   const bar = `<div class="bar"><button class="back">‹ Retour</button><h2>Cartes</h2><span class="score" aria-live="polite"></span></div>
-    <div class="seg" role="group"><button data-deck="lecons">Leçons</button><button data-deck="affiche">Mon affiche</button></div>
+    <div class="seg" role="group"><button data-deck="lecons">Leçons</button><button data-deck="infographie">Infographie</button><button data-deck="affiche">Mon affiche</button></div>
     <div class="cbody"></div>`;
   root.innerHTML = bar;
   const body = root.querySelector(".cbody");
@@ -35,9 +41,10 @@ export function render(root, ctx) {
       if (!cards.length) { body.innerHTML = `<p class="empty">Aucune leçon sélectionnée.</p>`; return; }
     } else {
       body.innerHTML = `<p class="soon">Chargement…</p>`;
-      try { cards = (await loadAffiche()).cards; }
-      catch (e) { if (alive && deck === "affiche") body.innerHTML = `<p class="empty">${esc(e.message)}</p>`; return; }
-      if (!alive || deck !== "affiche") return;
+      const want = deck;
+      try { cards = (await loadDeck(want)).cards; }
+      catch (e) { if (alive && deck === want) body.innerHTML = `<p class="empty">${esc(e.message)}</p>`; return; }
+      if (!alive || deck !== want) return;
     }
     cards = shuffle(cards); i = 0; flipped = false;
     draw();

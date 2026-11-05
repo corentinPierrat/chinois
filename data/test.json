@@ -1,0 +1,35 @@
+{
+ "note": "Écriture annoncée par la prof : les nombres de 0 à 10 et les caractères simples (上, 下, 不, 我, 你, 他…).",
+ "numbers": [
+  { "hanzi": "零", "pinyin": "líng", "fr": "zéro", "digit": "0" },
+  { "hanzi": "一", "pinyin": "yī", "fr": "un", "digit": "1" },
+  { "hanzi": "二", "pinyin": "èr", "fr": "deux", "digit": "2" },
+  { "hanzi": "三", "pinyin": "sān", "fr": "trois", "digit": "3" },
+  { "hanzi": "四", "pinyin": "sì", "fr": "quatre", "digit": "4" },
+  { "hanzi": "五", "pinyin": "wǔ", "fr": "cinq", "digit": "5" },
+  { "hanzi": "六", "pinyin": "liù", "fr": "six", "digit": "6" },
+  { "hanzi": "七", "pinyin": "qī", "fr": "sept", "digit": "7" },
+  { "hanzi": "八", "pinyin": "bā", "fr": "huit", "digit": "8" },
+  { "hanzi": "九", "pinyin": "jiǔ", "fr": "neuf", "digit": "9" },
+  { "hanzi": "十", "pinyin": "shí", "fr": "dix", "digit": "10" }
+ ],
+ "simples": [
+  { "hanzi": "上", "pinyin": "shàng", "fr": "dessus ; haut" },
+  { "hanzi": "下", "pinyin": "xià", "fr": "dessous ; bas" },
+  { "hanzi": "不", "pinyin": "bù", "fr": "ne… pas ; non" },
+  { "hanzi": "我", "pinyin": "wǒ", "fr": "je, moi" },
+  { "hanzi": "你", "pinyin": "nǐ", "fr": "tu, toi" },
+  { "hanzi": "他", "pinyin": "tā", "fr": "il, lui" },
+  { "hanzi": "她", "pinyin": "tā", "fr": "elle" },
+  { "hanzi": "们", "pinyin": "men", "fr": "pluriel (我们, 你们…)" },
+  { "hanzi": "人", "pinyin": "rén", "fr": "personne" },
+  { "hanzi": "大", "pinyin": "dà", "fr": "grand" },
+  { "hanzi": "小", "pinyin": "xiǎo", "fr": "petit" },
+  { "hanzi": "中", "pinyin": "zhōng", "fr": "milieu (中国 Chine)" },
+  { "hanzi": "好", "pinyin": "hǎo", "fr": "bien, bon" },
+  { "hanzi": "也", "pinyin": "yě", "fr": "aussi" },
+  { "hanzi": "口", "pinyin": "kǒu", "fr": "bouche ; classificateur" },
+  { "hanzi": "日", "pinyin": "rì", "fr": "jour, soleil" },
+  { "hanzi": "月", "pinyin": "yuè", "fr": "mois, lune" }
+ ]
+}

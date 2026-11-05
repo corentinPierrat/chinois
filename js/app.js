@@ -15,6 +15,7 @@ const ROUTES = {
   "#/regles": "./views/rules.js",
   "#/cartes": "./views/cards.js",
   "#/progres": "./views/progress.js",
+  "#/test": "./views/test.js",
 };
 
 const root = document.getElementById("app");

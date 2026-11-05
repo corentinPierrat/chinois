@@ -1,4 +1,4 @@
-// Downloads Hanzi Writer stroke data for every CJK char in data/lessons.json (words + sentences).
+// Downloads Hanzi Writer stroke data for every CJK char in data/lessons.json (words + sentences) and data/test.json.
 // Usage: node scripts/fetch-hanzi.mjs   (skips files already present, reports failures)
 import { readFile, writeFile, mkdir, access } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
@@ -14,6 +14,8 @@ const chars = new Set();
 for (const w of data.words) cjkChars(w.hanzi).forEach((c) => chars.add(c));
 for (const s of data.sentences) cjkChars(s.hanzi).forEach((c) => chars.add(c));
 for (const l of data.lessons) cjkChars(l.title).forEach((c) => chars.add(c));
+const test = JSON.parse(await readFile(join(ROOT, "data", "test.json"), "utf8"));
+for (const t of [...test.numbers, ...test.simples]) cjkChars(t.hanzi).forEach((c) => chars.add(c));
 
 await mkdir(OUT, { recursive: true });
 const exists = (p) => access(p).then(() => true, () => false);
