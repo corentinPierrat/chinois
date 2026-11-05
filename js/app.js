@@ -85,7 +85,11 @@ if ("serviceWorker" in navigator) {
     reloaded = true;
     location.reload();
   });
-  window.addEventListener("load", () => {
-    navigator.serviceWorker.register("sw.js").catch((e) => console.warn("SW registration failed", e));
+  // The browser only reinstalls the SW when its URL or bytes change, so the precache version goes in the URL.
+  window.addEventListener("load", async () => {
+    let v = null;
+    try { const r = await fetch("precache.json", { cache: "no-store" }); if (r.ok) v = (await r.json()).version; } catch {}
+    if (!v && navigator.serviceWorker.controller) return; // offline: keep the installed SW
+    navigator.serviceWorker.register(v ? `sw.js?v=${v}` : "sw.js").catch((e) => console.warn("SW registration failed", e));
   });
 }

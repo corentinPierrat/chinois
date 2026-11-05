@@ -1,3 +1,4 @@
+// Registered as sw.js?v=<precache version> (see js/app.js) so every deploy triggers an update.
 const PREFIX = "revchinois-";
 
 self.addEventListener("install", (event) => {
