@@ -207,6 +207,78 @@
    "source": "manuel"
   },
   {
+   "id": "L1-N1",
+   "lesson": 1,
+   "n": 1,
+   "hanzi": "汉语",
+   "pinyin": "Hànyǔ",
+   "pos": "",
+   "en": "",
+   "fr": "chinois (langue)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L1-N2",
+   "lesson": 1,
+   "n": 2,
+   "hanzi": "法语",
+   "pinyin": "Fǎyǔ",
+   "pos": "",
+   "en": "",
+   "fr": "français (langue)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L1-N3",
+   "lesson": 1,
+   "n": 3,
+   "hanzi": "说",
+   "pinyin": "shuō",
+   "pos": "",
+   "en": "",
+   "fr": "parler, dire",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L1-N4",
+   "lesson": 1,
+   "n": 4,
+   "hanzi": "美国",
+   "pinyin": "Měiguó",
+   "pos": "",
+   "en": "",
+   "fr": "États-Unis",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L1-N5",
+   "lesson": 1,
+   "n": 5,
+   "hanzi": "俄罗斯",
+   "pinyin": "Éluósī",
+   "pos": "",
+   "en": "",
+   "fr": "Russie",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L1-N6",
+   "lesson": 1,
+   "n": 6,
+   "hanzi": "大学生",
+   "pinyin": "dàxuéshēng",
+   "pos": "",
+   "en": "",
+   "fr": "étudiant (université)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
    "id": "L2-W1",
    "lesson": 2,
    "n": 1,
@@ -385,6 +457,18 @@
    "fr": "aussi",
    "proper": false,
    "source": "manuel"
+  },
+  {
+   "id": "L2-N1",
+   "lesson": 2,
+   "n": 1,
+   "hanzi": "朋友",
+   "pinyin": "péngyou",
+   "pos": "",
+   "en": "",
+   "fr": "ami",
+   "proper": false,
+   "source": "notes"
   },
   {
    "id": "L3-W1",
@@ -651,6 +735,150 @@
    "source": "manuel"
   },
   {
+   "id": "L3-N1",
+   "lesson": 3,
+   "n": 1,
+   "hanzi": "这个",
+   "pinyin": "zhège",
+   "pos": "",
+   "en": "",
+   "fr": "ce, celui-ci",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N2",
+   "lesson": 3,
+   "n": 2,
+   "hanzi": "那",
+   "pinyin": "nà",
+   "pos": "",
+   "en": "",
+   "fr": "cela, ça",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N3",
+   "lesson": 3,
+   "n": 3,
+   "hanzi": "狗",
+   "pinyin": "gǒu",
+   "pos": "",
+   "en": "",
+   "fr": "chien",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N4",
+   "lesson": 3,
+   "n": 4,
+   "hanzi": "学习",
+   "pinyin": "xuéxí",
+   "pos": "",
+   "en": "",
+   "fr": "étudier",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N5",
+   "lesson": 3,
+   "n": 5,
+   "hanzi": "学",
+   "pinyin": "xué",
+   "pos": "",
+   "en": "",
+   "fr": "étudier, apprendre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N6",
+   "lesson": 3,
+   "n": 6,
+   "hanzi": "北京",
+   "pinyin": "Běijīng",
+   "pos": "",
+   "en": "",
+   "fr": "Pékin",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N7",
+   "lesson": 3,
+   "n": 7,
+   "hanzi": "交通",
+   "pinyin": "jiāotōng",
+   "pos": "",
+   "en": "",
+   "fr": "transports",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N8",
+   "lesson": 3,
+   "n": 8,
+   "hanzi": "大学",
+   "pinyin": "dàxué",
+   "pos": "",
+   "en": "",
+   "fr": "université",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N9",
+   "lesson": 3,
+   "n": 9,
+   "hanzi": "男朋友",
+   "pinyin": "nánpéngyou",
+   "pos": "",
+   "en": "",
+   "fr": "petit ami",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N10",
+   "lesson": 3,
+   "n": 10,
+   "hanzi": "帅",
+   "pinyin": "shuài",
+   "pos": "",
+   "en": "",
+   "fr": "beau (garçon)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N11",
+   "lesson": 3,
+   "n": 11,
+   "hanzi": "哪个",
+   "pinyin": "nǎge",
+   "pos": "",
+   "en": "",
+   "fr": "lequel ?",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L3-N12",
+   "lesson": 3,
+   "n": 12,
+   "hanzi": "英国",
+   "pinyin": "Yīngguó",
+   "pos": "",
+   "en": "",
+   "fr": "Angleterre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
    "id": "L4-W1",
    "lesson": 4,
    "n": 1,
@@ -901,6 +1129,318 @@
    "fr": "âgé (âge)",
    "proper": false,
    "source": "manuel"
+  },
+  {
+   "id": "L4-N1",
+   "lesson": 4,
+   "n": 1,
+   "hanzi": "零",
+   "pinyin": "líng",
+   "pos": "",
+   "en": "",
+   "fr": "zéro",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N2",
+   "lesson": 4,
+   "n": 2,
+   "hanzi": "一",
+   "pinyin": "yī",
+   "pos": "",
+   "en": "",
+   "fr": "un",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N3",
+   "lesson": 4,
+   "n": 3,
+   "hanzi": "二",
+   "pinyin": "èr",
+   "pos": "",
+   "en": "",
+   "fr": "deux",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N4",
+   "lesson": 4,
+   "n": 4,
+   "hanzi": "三",
+   "pinyin": "sān",
+   "pos": "",
+   "en": "",
+   "fr": "trois",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N5",
+   "lesson": 4,
+   "n": 5,
+   "hanzi": "四",
+   "pinyin": "sì",
+   "pos": "",
+   "en": "",
+   "fr": "quatre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N6",
+   "lesson": 4,
+   "n": 6,
+   "hanzi": "五",
+   "pinyin": "wǔ",
+   "pos": "",
+   "en": "",
+   "fr": "cinq",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N7",
+   "lesson": 4,
+   "n": 7,
+   "hanzi": "六",
+   "pinyin": "liù",
+   "pos": "",
+   "en": "",
+   "fr": "six",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N8",
+   "lesson": 4,
+   "n": 8,
+   "hanzi": "七",
+   "pinyin": "qī",
+   "pos": "",
+   "en": "",
+   "fr": "sept",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N9",
+   "lesson": 4,
+   "n": 9,
+   "hanzi": "八",
+   "pinyin": "bā",
+   "pos": "",
+   "en": "",
+   "fr": "huit",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N10",
+   "lesson": 4,
+   "n": 10,
+   "hanzi": "九",
+   "pinyin": "jiǔ",
+   "pos": "",
+   "en": "",
+   "fr": "neuf",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N11",
+   "lesson": 4,
+   "n": 11,
+   "hanzi": "十",
+   "pinyin": "shí",
+   "pos": "",
+   "en": "",
+   "fr": "dix",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N12",
+   "lesson": 4,
+   "n": 12,
+   "hanzi": "百",
+   "pinyin": "bǎi",
+   "pos": "",
+   "en": "",
+   "fr": "cent",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N13",
+   "lesson": 4,
+   "n": 13,
+   "hanzi": "一百",
+   "pinyin": "yìbǎi",
+   "pos": "",
+   "en": "",
+   "fr": "cent (100)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N14",
+   "lesson": 4,
+   "n": 14,
+   "hanzi": "弟弟",
+   "pinyin": "dìdi",
+   "pos": "",
+   "en": "",
+   "fr": "petit frère",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N15",
+   "lesson": 4,
+   "n": 15,
+   "hanzi": "昨天",
+   "pinyin": "zuótiān",
+   "pos": "",
+   "en": "",
+   "fr": "hier",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N16",
+   "lesson": 4,
+   "n": 16,
+   "hanzi": "车",
+   "pinyin": "chē",
+   "pos": "",
+   "en": "",
+   "fr": "voiture",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N17",
+   "lesson": 4,
+   "n": 17,
+   "hanzi": "钱",
+   "pinyin": "qián",
+   "pos": "",
+   "en": "",
+   "fr": "argent",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N18",
+   "lesson": 4,
+   "n": 18,
+   "hanzi": "男人",
+   "pinyin": "nánrén",
+   "pos": "",
+   "en": "",
+   "fr": "homme",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N19",
+   "lesson": 4,
+   "n": 19,
+   "hanzi": "女人",
+   "pinyin": "nǚrén",
+   "pos": "",
+   "en": "",
+   "fr": "femme",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N20",
+   "lesson": 4,
+   "n": 20,
+   "hanzi": "丈夫",
+   "pinyin": "zhàngfu",
+   "pos": "",
+   "en": "",
+   "fr": "mari",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N21",
+   "lesson": 4,
+   "n": 21,
+   "hanzi": "妻子",
+   "pinyin": "qīzi",
+   "pos": "",
+   "en": "",
+   "fr": "épouse",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N22",
+   "lesson": 4,
+   "n": 22,
+   "hanzi": "多大",
+   "pinyin": "duō dà",
+   "pos": "",
+   "en": "",
+   "fr": "quel âge (plus de 10 ans) ?",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N23",
+   "lesson": 4,
+   "n": 23,
+   "hanzi": "男孩",
+   "pinyin": "nánhái",
+   "pos": "",
+   "en": "",
+   "fr": "garçon",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N24",
+   "lesson": 4,
+   "n": 24,
+   "hanzi": "女孩",
+   "pinyin": "nǚhái",
+   "pos": "",
+   "en": "",
+   "fr": "fille",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N25",
+   "lesson": 4,
+   "n": 25,
+   "hanzi": "宝贝",
+   "pinyin": "bǎobèi",
+   "pos": "",
+   "en": "",
+   "fr": "bébé ; chéri",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L4-N26",
+   "lesson": 4,
+   "n": 26,
+   "hanzi": "高寿",
+   "pinyin": "gāoshòu",
+   "pos": "",
+   "en": "",
+   "fr": "grand âge (您高寿 : quel âge, pour une personne très âgée)",
+   "proper": false,
+   "source": "notes"
   },
   {
    "id": "L5-W1",
@@ -1179,6 +1719,450 @@
    "source": "notes"
   },
   {
+   "id": "L5-N2",
+   "lesson": 5,
+   "n": 2,
+   "hanzi": "去年",
+   "pinyin": "qùnián",
+   "pos": "",
+   "en": "",
+   "fr": "l'année dernière",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N3",
+   "lesson": 5,
+   "n": 3,
+   "hanzi": "明年",
+   "pinyin": "míngnián",
+   "pos": "",
+   "en": "",
+   "fr": "l'année prochaine",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N4",
+   "lesson": 5,
+   "n": 4,
+   "hanzi": "前年",
+   "pinyin": "qiánnián",
+   "pos": "",
+   "en": "",
+   "fr": "il y a deux ans",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N5",
+   "lesson": 5,
+   "n": 5,
+   "hanzi": "后年",
+   "pinyin": "hòunián",
+   "pos": "",
+   "en": "",
+   "fr": "dans deux ans",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N6",
+   "lesson": 5,
+   "n": 6,
+   "hanzi": "贵",
+   "pinyin": "guì",
+   "pos": "",
+   "en": "",
+   "fr": "cher",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N7",
+   "lesson": 5,
+   "n": 7,
+   "hanzi": "多贵",
+   "pinyin": "duō guì",
+   "pos": "",
+   "en": "",
+   "fr": "combien ça coûte (c'est cher) ?",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N8",
+   "lesson": 5,
+   "n": 8,
+   "hanzi": "上个月",
+   "pinyin": "shàng ge yuè",
+   "pos": "",
+   "en": "",
+   "fr": "le mois dernier",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N9",
+   "lesson": 5,
+   "n": 9,
+   "hanzi": "这个月",
+   "pinyin": "zhè ge yuè",
+   "pos": "",
+   "en": "",
+   "fr": "ce mois-ci",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N10",
+   "lesson": 5,
+   "n": 10,
+   "hanzi": "下个月",
+   "pinyin": "xià ge yuè",
+   "pos": "",
+   "en": "",
+   "fr": "le mois prochain",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N11",
+   "lesson": 5,
+   "n": 11,
+   "hanzi": "天",
+   "pinyin": "tiān",
+   "pos": "",
+   "en": "",
+   "fr": "jour",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N12",
+   "lesson": 5,
+   "n": 12,
+   "hanzi": "前天",
+   "pinyin": "qiántiān",
+   "pos": "",
+   "en": "",
+   "fr": "avant-hier",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N13",
+   "lesson": 5,
+   "n": 13,
+   "hanzi": "后天",
+   "pinyin": "hòutiān",
+   "pos": "",
+   "en": "",
+   "fr": "après-demain",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N14",
+   "lesson": 5,
+   "n": 14,
+   "hanzi": "大前天",
+   "pinyin": "dàqiántiān",
+   "pos": "",
+   "en": "",
+   "fr": "il y a trois jours",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N15",
+   "lesson": 5,
+   "n": 15,
+   "hanzi": "大后天",
+   "pinyin": "dàhòutiān",
+   "pos": "",
+   "en": "",
+   "fr": "dans trois jours",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N16",
+   "lesson": 5,
+   "n": 16,
+   "hanzi": "写",
+   "pinyin": "xiě",
+   "pos": "",
+   "en": "",
+   "fr": "écrire",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N17",
+   "lesson": 5,
+   "n": 17,
+   "hanzi": "作业",
+   "pinyin": "zuòyè",
+   "pos": "",
+   "en": "",
+   "fr": "devoirs",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N18",
+   "lesson": 5,
+   "n": 18,
+   "hanzi": "天气",
+   "pinyin": "tiānqì",
+   "pos": "",
+   "en": "",
+   "fr": "météo",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N19",
+   "lesson": 5,
+   "n": 19,
+   "hanzi": "上个星期",
+   "pinyin": "shàng ge xīngqī",
+   "pos": "",
+   "en": "",
+   "fr": "la semaine dernière",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N20",
+   "lesson": 5,
+   "n": 20,
+   "hanzi": "这个星期",
+   "pinyin": "zhè ge xīngqī",
+   "pos": "",
+   "en": "",
+   "fr": "cette semaine",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N21",
+   "lesson": 5,
+   "n": 21,
+   "hanzi": "下个星期",
+   "pinyin": "xià ge xīngqī",
+   "pos": "",
+   "en": "",
+   "fr": "la semaine prochaine",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N22",
+   "lesson": 5,
+   "n": 22,
+   "hanzi": "星期几",
+   "pinyin": "xīngqī jǐ",
+   "pos": "",
+   "en": "",
+   "fr": "quel jour de la semaine ?",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N23",
+   "lesson": 5,
+   "n": 23,
+   "hanzi": "星期三",
+   "pinyin": "xīngqīsān",
+   "pos": "",
+   "en": "",
+   "fr": "mercredi",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N24",
+   "lesson": 5,
+   "n": 24,
+   "hanzi": "两",
+   "pinyin": "liǎng",
+   "pos": "",
+   "en": "",
+   "fr": "deux (devant un classificateur)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N25",
+   "lesson": 5,
+   "n": 25,
+   "hanzi": "汉语课",
+   "pinyin": "Hànyǔ kè",
+   "pos": "",
+   "en": "",
+   "fr": "cours de chinois",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N26",
+   "lesson": 5,
+   "n": 26,
+   "hanzi": "生日",
+   "pinyin": "shēngrì",
+   "pos": "",
+   "en": "",
+   "fr": "anniversaire",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N27",
+   "lesson": 5,
+   "n": 27,
+   "hanzi": "中午",
+   "pinyin": "zhōngwǔ",
+   "pos": "",
+   "en": "",
+   "fr": "midi",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N28",
+   "lesson": 5,
+   "n": 28,
+   "hanzi": "汉字",
+   "pinyin": "Hànzì",
+   "pos": "",
+   "en": "",
+   "fr": "caractère chinois",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N29",
+   "lesson": 5,
+   "n": 29,
+   "hanzi": "蔬菜",
+   "pinyin": "shūcài",
+   "pos": "",
+   "en": "",
+   "fr": "légumes",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N30",
+   "lesson": 5,
+   "n": 30,
+   "hanzi": "道",
+   "pinyin": "dào",
+   "pos": "",
+   "en": "",
+   "fr": "classificateur des plats",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N31",
+   "lesson": 5,
+   "n": 31,
+   "hanzi": "这儿",
+   "pinyin": "zhèr",
+   "pos": "",
+   "en": "",
+   "fr": "ici",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N32",
+   "lesson": 5,
+   "n": 32,
+   "hanzi": "苹果",
+   "pinyin": "píngguǒ",
+   "pos": "",
+   "en": "",
+   "fr": "pomme",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N33",
+   "lesson": 5,
+   "n": 33,
+   "hanzi": "件",
+   "pinyin": "jiàn",
+   "pos": "",
+   "en": "",
+   "fr": "classificateur des vêtements",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N34",
+   "lesson": 5,
+   "n": 34,
+   "hanzi": "衣服",
+   "pinyin": "yīfu",
+   "pos": "",
+   "en": "",
+   "fr": "vêtement",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N35",
+   "lesson": 5,
+   "n": 35,
+   "hanzi": "咖啡",
+   "pinyin": "kāfēi",
+   "pos": "",
+   "en": "",
+   "fr": "café",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N36",
+   "lesson": 5,
+   "n": 36,
+   "hanzi": "好喝",
+   "pinyin": "hǎohē",
+   "pos": "",
+   "en": "",
+   "fr": "bon (à boire)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N37",
+   "lesson": 5,
+   "n": 37,
+   "hanzi": "本",
+   "pinyin": "běn",
+   "pos": "",
+   "en": "",
+   "fr": "classificateur des livres",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L5-N38",
+   "lesson": 5,
+   "n": 38,
+   "hanzi": "可爱",
+   "pinyin": "kě'ài",
+   "pos": "",
+   "en": "",
+   "fr": "mignon",
+   "proper": false,
+   "source": "notes"
+  },
+  {
    "id": "L6-W1",
    "lesson": 6,
    "n": 1,
@@ -1453,6 +2437,270 @@
    "fr": "Restaurant Xi'an",
    "proper": true,
    "source": "manuel"
+  },
+  {
+   "id": "L6-N1",
+   "lesson": 6,
+   "n": 1,
+   "hanzi": "给",
+   "pinyin": "gěi",
+   "pos": "",
+   "en": "",
+   "fr": "à, pour ; donner",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N2",
+   "lesson": 6,
+   "n": 2,
+   "hanzi": "打电话",
+   "pinyin": "dǎ diànhuà",
+   "pos": "",
+   "en": "",
+   "fr": "téléphoner",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N3",
+   "lesson": 6,
+   "n": 3,
+   "hanzi": "学号",
+   "pinyin": "xuéhào",
+   "pos": "",
+   "en": "",
+   "fr": "numéro d'étudiant",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N4",
+   "lesson": 6,
+   "n": 4,
+   "hanzi": "微信号",
+   "pinyin": "wēixìnhào",
+   "pos": "",
+   "en": "",
+   "fr": "identifiant WeChat",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N5",
+   "lesson": 6,
+   "n": 5,
+   "hanzi": "支付宝",
+   "pinyin": "Zhīfùbǎo",
+   "pos": "",
+   "en": "",
+   "fr": "Alipay",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N6",
+   "lesson": 6,
+   "n": 6,
+   "hanzi": "幺",
+   "pinyin": "yāo",
+   "pos": "",
+   "en": "",
+   "fr": "un (dans les numéros)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N7",
+   "lesson": 6,
+   "n": 7,
+   "hanzi": "手机号",
+   "pinyin": "shǒujīhào",
+   "pos": "",
+   "en": "",
+   "fr": "numéro de portable",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N8",
+   "lesson": 6,
+   "n": 8,
+   "hanzi": "早饭",
+   "pinyin": "zǎofàn",
+   "pos": "",
+   "en": "",
+   "fr": "petit-déjeuner",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N9",
+   "lesson": 6,
+   "n": 9,
+   "hanzi": "住",
+   "pinyin": "zhù",
+   "pos": "",
+   "en": "",
+   "fr": "habiter",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N10",
+   "lesson": 6,
+   "n": 10,
+   "hanzi": "楼",
+   "pinyin": "lóu",
+   "pos": "",
+   "en": "",
+   "fr": "bâtiment, immeuble",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N11",
+   "lesson": 6,
+   "n": 11,
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "pos": "",
+   "en": "",
+   "fr": "chaise",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N12",
+   "lesson": 6,
+   "n": 12,
+   "hanzi": "水",
+   "pinyin": "shuǐ",
+   "pos": "",
+   "en": "",
+   "fr": "eau",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N13",
+   "lesson": 6,
+   "n": 13,
+   "hanzi": "茶",
+   "pinyin": "chá",
+   "pos": "",
+   "en": "",
+   "fr": "thé",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N14",
+   "lesson": 6,
+   "n": 14,
+   "hanzi": "怎么样",
+   "pinyin": "zěnmeyàng",
+   "pos": "",
+   "en": "",
+   "fr": "comment (est…) ? ça va ?",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N15",
+   "lesson": 6,
+   "n": 15,
+   "hanzi": "知道",
+   "pinyin": "zhīdào",
+   "pos": "",
+   "en": "",
+   "fr": "savoir",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N16",
+   "lesson": 6,
+   "n": 16,
+   "hanzi": "披萨",
+   "pinyin": "pīsà",
+   "pos": "",
+   "en": "",
+   "fr": "pizza",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N17",
+   "lesson": 6,
+   "n": 17,
+   "hanzi": "鸡肉",
+   "pinyin": "jīròu",
+   "pos": "",
+   "en": "",
+   "fr": "poulet",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N18",
+   "lesson": 6,
+   "n": 18,
+   "hanzi": "猪肉",
+   "pinyin": "zhūròu",
+   "pos": "",
+   "en": "",
+   "fr": "porc",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N19",
+   "lesson": 6,
+   "n": 19,
+   "hanzi": "牛肉",
+   "pinyin": "niúròu",
+   "pos": "",
+   "en": "",
+   "fr": "bœuf",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N20",
+   "lesson": 6,
+   "n": 20,
+   "hanzi": "肉包子",
+   "pinyin": "ròu bāozi",
+   "pos": "",
+   "en": "",
+   "fr": "brioche à la viande",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N21",
+   "lesson": 6,
+   "n": 21,
+   "hanzi": "法国菜",
+   "pinyin": "Fǎguó cài",
+   "pos": "",
+   "en": "",
+   "fr": "cuisine française",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L6-N22",
+   "lesson": 6,
+   "n": 22,
+   "hanzi": "很多",
+   "pinyin": "hěn duō",
+   "pos": "",
+   "en": "",
+   "fr": "beaucoup de",
+   "proper": false,
+   "source": "notes"
   },
   {
    "id": "L7-W1",
@@ -1777,6 +3025,234 @@
    "fr": "après ; plus tard",
    "proper": false,
    "source": "manuel"
+  },
+  {
+   "id": "L7-N1",
+   "lesson": 7,
+   "n": 1,
+   "hanzi": "飞机",
+   "pinyin": "fēijī",
+   "pos": "",
+   "en": "",
+   "fr": "avion",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N2",
+   "lesson": 7,
+   "n": 2,
+   "hanzi": "火车",
+   "pinyin": "huǒchē",
+   "pos": "",
+   "en": "",
+   "fr": "train",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N3",
+   "lesson": 7,
+   "n": 3,
+   "hanzi": "来",
+   "pinyin": "lái",
+   "pos": "",
+   "en": "",
+   "fr": "venir",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N4",
+   "lesson": 7,
+   "n": 4,
+   "hanzi": "请坐",
+   "pinyin": "qǐng zuò",
+   "pos": "",
+   "en": "",
+   "fr": "asseyez-vous",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N5",
+   "lesson": 7,
+   "n": 5,
+   "hanzi": "叫出租车",
+   "pinyin": "jiào chūzūchē",
+   "pos": "",
+   "en": "",
+   "fr": "appeler un taxi",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N6",
+   "lesson": 7,
+   "n": 6,
+   "hanzi": "司机",
+   "pinyin": "sījī",
+   "pos": "",
+   "en": "",
+   "fr": "chauffeur",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N7",
+   "lesson": 7,
+   "n": 7,
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "pos": "",
+   "en": "",
+   "fr": "conduire ; ouvrir",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N8",
+   "lesson": 7,
+   "n": 8,
+   "hanzi": "可乐",
+   "pinyin": "kělè",
+   "pos": "",
+   "en": "",
+   "fr": "coca",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N9",
+   "lesson": 7,
+   "n": 9,
+   "hanzi": "小时",
+   "pinyin": "xiǎoshí",
+   "pos": "",
+   "en": "",
+   "fr": "heure (durée)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N10",
+   "lesson": 7,
+   "n": 10,
+   "hanzi": "第",
+   "pinyin": "dì",
+   "pos": "",
+   "en": "",
+   "fr": "-ième (ordinal)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N11",
+   "lesson": 7,
+   "n": 11,
+   "hanzi": "饭店",
+   "pinyin": "fàndiàn",
+   "pos": "",
+   "en": "",
+   "fr": "restaurant",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N12",
+   "lesson": 7,
+   "n": 12,
+   "hanzi": "好吧",
+   "pinyin": "hǎo ba",
+   "pos": "",
+   "en": "",
+   "fr": "d'accord",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N13",
+   "lesson": 7,
+   "n": 13,
+   "hanzi": "电视",
+   "pinyin": "diànshì",
+   "pos": "",
+   "en": "",
+   "fr": "télévision",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N14",
+   "lesson": 7,
+   "n": 14,
+   "hanzi": "看电视",
+   "pinyin": "kàn diànshì",
+   "pos": "",
+   "en": "",
+   "fr": "regarder la télé",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N15",
+   "lesson": 7,
+   "n": 15,
+   "hanzi": "别",
+   "pinyin": "bié",
+   "pos": "",
+   "en": "",
+   "fr": "ne… pas (interdiction)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N16",
+   "lesson": 7,
+   "n": 16,
+   "hanzi": "同学们",
+   "pinyin": "tóngxuémen",
+   "pos": "",
+   "en": "",
+   "fr": "les camarades",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N17",
+   "lesson": 7,
+   "n": 17,
+   "hanzi": "食堂",
+   "pinyin": "shítáng",
+   "pos": "",
+   "en": "",
+   "fr": "cantine",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N18",
+   "lesson": 7,
+   "n": 18,
+   "hanzi": "商店",
+   "pinyin": "shāngdiàn",
+   "pos": "",
+   "en": "",
+   "fr": "magasin",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L7-N19",
+   "lesson": 7,
+   "n": 19,
+   "hanzi": "酒店",
+   "pinyin": "jiǔdiàn",
+   "pos": "",
+   "en": "",
+   "fr": "hôtel",
+   "proper": false,
+   "source": "notes"
   },
   {
    "id": "L8-W1",
@@ -2221,6 +3697,210 @@
    "fr": "particule (action accomplie, changement)",
    "proper": false,
    "source": "notes"
+  },
+  {
+   "id": "L8-N14",
+   "lesson": 8,
+   "n": 14,
+   "hanzi": "柜子",
+   "pinyin": "guìzi",
+   "pos": "",
+   "en": "",
+   "fr": "armoire, placard",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N15",
+   "lesson": 8,
+   "n": 15,
+   "hanzi": "回家",
+   "pinyin": "huí jiā",
+   "pos": "",
+   "en": "",
+   "fr": "rentrer à la maison",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N16",
+   "lesson": 8,
+   "n": 16,
+   "hanzi": "在家",
+   "pinyin": "zài jiā",
+   "pos": "",
+   "en": "",
+   "fr": "être à la maison",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N17",
+   "lesson": 8,
+   "n": 17,
+   "hanzi": "卖",
+   "pinyin": "mài",
+   "pos": "",
+   "en": "",
+   "fr": "vendre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N18",
+   "lesson": 8,
+   "n": 18,
+   "hanzi": "菜店",
+   "pinyin": "càidiàn",
+   "pos": "",
+   "en": "",
+   "fr": "épicerie (légumes)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N19",
+   "lesson": 8,
+   "n": 19,
+   "hanzi": "买菜",
+   "pinyin": "mǎi cài",
+   "pos": "",
+   "en": "",
+   "fr": "faire les courses (légumes)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N20",
+   "lesson": 8,
+   "n": 20,
+   "hanzi": "周末",
+   "pinyin": "zhōumò",
+   "pos": "",
+   "en": "",
+   "fr": "week-end",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N21",
+   "lesson": 8,
+   "n": 21,
+   "hanzi": "上边",
+   "pinyin": "shàngbian",
+   "pos": "",
+   "en": "",
+   "fr": "dessus",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N22",
+   "lesson": 8,
+   "n": 22,
+   "hanzi": "下边",
+   "pinyin": "xiàbian",
+   "pos": "",
+   "en": "",
+   "fr": "dessous",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N23",
+   "lesson": 8,
+   "n": 23,
+   "hanzi": "里边",
+   "pinyin": "lǐbian",
+   "pos": "",
+   "en": "",
+   "fr": "dedans",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N24",
+   "lesson": 8,
+   "n": 24,
+   "hanzi": "后边",
+   "pinyin": "hòubian",
+   "pos": "",
+   "en": "",
+   "fr": "derrière",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N25",
+   "lesson": 8,
+   "n": 25,
+   "hanzi": "外边",
+   "pinyin": "wàibian",
+   "pos": "",
+   "en": "",
+   "fr": "dehors",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N26",
+   "lesson": 8,
+   "n": 26,
+   "hanzi": "宿舍",
+   "pinyin": "sùshè",
+   "pos": "",
+   "en": "",
+   "fr": "dortoir, résidence",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N27",
+   "lesson": 8,
+   "n": 27,
+   "hanzi": "白天",
+   "pinyin": "báitiān",
+   "pos": "",
+   "en": "",
+   "fr": "journée",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N28",
+   "lesson": 8,
+   "n": 28,
+   "hanzi": "玩",
+   "pinyin": "wán",
+   "pos": "",
+   "en": "",
+   "fr": "jouer, s'amuser",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N29",
+   "lesson": 8,
+   "n": 29,
+   "hanzi": "上",
+   "pinyin": "shàng",
+   "pos": "",
+   "en": "",
+   "fr": "dessus ; monter",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N30",
+   "lesson": 8,
+   "n": 30,
+   "hanzi": "班",
+   "pinyin": "bān",
+   "pos": "",
+   "en": "",
+   "fr": "service, travail (上…班)",
+   "proper": false,
+   "source": "notes"
   }
  ],
  "sentences": [
@@ -2380,6 +4060,175 @@
    ]
   },
   {
+   "id": "L1-C1",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你好吗？",
+   "pinyin": "Nǐ hǎo ma?",
+   "en": "",
+   "fr": "Tu vas bien ?",
+   "tokens": [
+    "你好",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L1-C2",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你们是同学。",
+   "pinyin": "Nǐmen shì tóngxué.",
+   "en": "",
+   "fr": "Vous êtes camarades de classe.",
+   "tokens": [
+    "你们",
+    "是",
+    "同学",
+    "。"
+   ]
+  },
+  {
+   "id": "L1-C3",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们是大学生。",
+   "pinyin": "Wǒmen shì dàxuéshēng.",
+   "en": "",
+   "fr": "Nous sommes étudiants.",
+   "tokens": [
+    "我们",
+    "是",
+    "大学生",
+    "。"
+   ]
+  },
+  {
+   "id": "L1-C4",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "明天见！",
+   "pinyin": "Míngtiān jiàn!",
+   "en": "",
+   "fr": "À demain !",
+   "tokens": [
+    "明天",
+    "见",
+    "！"
+   ]
+  },
+  {
+   "id": "L1-C5",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "请问，你是中国人吗？",
+   "pinyin": "Qǐngwèn, nǐ shì Zhōngguó rén ma?",
+   "en": "",
+   "fr": "Excuse-moi, tu es chinois ?",
+   "tokens": [
+    "请问",
+    "，",
+    "你",
+    "是",
+    "中国",
+    "人",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L1-C6",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我的猫叫Coco。",
+   "pinyin": "Wǒ de māo jiào Coco.",
+   "en": "",
+   "fr": "Mon chat s'appelle Coco.",
+   "tokens": [
+    "我",
+    "的",
+    "猫",
+    "叫",
+    "Coco",
+    "。"
+   ]
+  },
+  {
+   "id": "L1-C7",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她叫什么名字？",
+   "pinyin": "Tā jiào shénme míngzi?",
+   "en": "",
+   "fr": "Comment s'appelle-t-elle ?",
+   "tokens": [
+    "她",
+    "叫",
+    "什么",
+    "名字",
+    "？"
+   ]
+  },
+  {
+   "id": "L1-C8",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我不是法国人。",
+   "pinyin": "Wǒ bú shì Fǎguó rén.",
+   "en": "",
+   "fr": "Je ne suis pas français.",
+   "tokens": [
+    "我",
+    "不",
+    "是",
+    "法国",
+    "人",
+    "。"
+   ]
+  },
+  {
+   "id": "L1-C9",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "对吗？不对。",
+   "pinyin": "Duì ma? Bú duì.",
+   "en": "",
+   "fr": "C'est juste ? Non, c'est faux.",
+   "tokens": [
+    "对",
+    "吗",
+    "？",
+    "不",
+    "对",
+    "。"
+   ]
+  },
+  {
+   "id": "L1-C10",
+   "lesson": 1,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我是学生。",
+   "pinyin": "Wǒ shì xuéshēng.",
+   "en": "",
+   "fr": "Je suis étudiant.",
+   "tokens": [
+    "我",
+    "是",
+    "学生",
+    "。"
+   ]
+  },
+  {
    "id": "L2-T1-S1",
    "lesson": 2,
    "text": 1,
@@ -2481,6 +4330,274 @@
    "tokens": [
     "没关系",
     "！"
+   ]
+  },
+  {
+   "id": "L2-C1",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "很高兴认识你。",
+   "pinyin": "Hěn gāoxìng rènshi nǐ.",
+   "en": "",
+   "fr": "Ravi de te connaître.",
+   "tokens": [
+    "很",
+    "高兴",
+    "认识",
+    "你",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C2",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们很高兴。",
+   "pinyin": "Wǒmen hěn gāoxìng.",
+   "en": "",
+   "fr": "Nous sommes contents.",
+   "tokens": [
+    "我们",
+    "很",
+    "高兴",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C3",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你认识他吗？",
+   "pinyin": "Nǐ rènshi tā ma?",
+   "en": "",
+   "fr": "Tu le connais ?",
+   "tokens": [
+    "你",
+    "认识",
+    "他",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L2-C4",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你也认识她？",
+   "pinyin": "Nǐ yě rènshi tā?",
+   "en": "",
+   "fr": "Tu la connais aussi ?",
+   "tokens": [
+    "你",
+    "也",
+    "认识",
+    "她",
+    "？"
+   ]
+  },
+  {
+   "id": "L2-C5",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你呢？",
+   "pinyin": "Nǐ ne?",
+   "en": "",
+   "fr": "Et toi ?",
+   "tokens": [
+    "你",
+    "呢",
+    "？"
+   ]
+  },
+  {
+   "id": "L2-C6",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你叫什么名字？",
+   "pinyin": "Nǐ jiào shénme míngzi?",
+   "en": "",
+   "fr": "Comment tu t'appelles ?",
+   "tokens": [
+    "你",
+    "叫",
+    "什么",
+    "名字",
+    "？"
+   ]
+  },
+  {
+   "id": "L2-C7",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我叫Corentin。",
+   "pinyin": "Wǒ jiào Corentin.",
+   "en": "",
+   "fr": "Je m'appelle Corentin.",
+   "tokens": [
+    "我",
+    "叫",
+    "Corentin",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C8",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这是什么？",
+   "pinyin": "Zhè shì shénme?",
+   "en": "",
+   "fr": "Qu'est-ce que c'est ?",
+   "tokens": [
+    "这",
+    "是",
+    "什么",
+    "？"
+   ]
+  },
+  {
+   "id": "L2-C9",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你的名字是陈天中。",
+   "pinyin": "Nǐ de míngzi shì Chén Tiānzhōng.",
+   "en": "",
+   "fr": "Ton nom est Chen Tianzhong.",
+   "tokens": [
+    "你",
+    "的",
+    "名字",
+    "是",
+    "陈天中",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C10",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我不好。",
+   "pinyin": "Wǒ bù hǎo.",
+   "en": "",
+   "fr": "Je ne vais pas bien.",
+   "tokens": [
+    "我",
+    "不",
+    "好",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C11",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "对不起，我不是老师。",
+   "pinyin": "Duìbuqǐ, wǒ bú shì lǎoshī.",
+   "en": "",
+   "fr": "Désolé, je ne suis pas professeur.",
+   "tokens": [
+    "对不起",
+    "，",
+    "我",
+    "不",
+    "是",
+    "老师",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C12",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "没关系，我很好。",
+   "pinyin": "Méi guānxi, wǒ hěn hǎo.",
+   "en": "",
+   "fr": "Ce n'est pas grave, je vais bien.",
+   "tokens": [
+    "没关系",
+    "，",
+    "我",
+    "很",
+    "好",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C13",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "没事，谢谢。",
+   "pinyin": "Méishì, xièxie.",
+   "en": "",
+   "fr": "Pas de problème, merci.",
+   "tokens": [
+    "没事",
+    "，",
+    "谢谢",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C14",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我很高兴。",
+   "pinyin": "Wǒ hěn gāoxìng.",
+   "en": "",
+   "fr": "Je suis content.",
+   "tokens": [
+    "我",
+    "很",
+    "高兴",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C15",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我认识他。",
+   "pinyin": "Wǒ rènshi tā.",
+   "en": "",
+   "fr": "Je le connais.",
+   "tokens": [
+    "我",
+    "认识",
+    "他",
+    "。"
+   ]
+  },
+  {
+   "id": "L2-C16",
+   "lesson": 2,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他也是法国人。",
+   "pinyin": "Tā yě shì Fǎguó rén.",
+   "en": "",
+   "fr": "Lui aussi est français.",
+   "tokens": [
+    "他",
+    "也",
+    "是",
+    "法国",
+    "人",
+    "。"
    ]
   },
   {
@@ -2591,6 +4708,272 @@
     "也",
     "想",
     "你们",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C1",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你认识这个人吗？",
+   "pinyin": "Nǐ rènshi zhège rén ma?",
+   "en": "",
+   "fr": "Tu connais cette personne ?",
+   "tokens": [
+    "你",
+    "认识",
+    "这个",
+    "人",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C2",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "那是你的手机。",
+   "pinyin": "Nà shì nǐ de shǒujī.",
+   "en": "",
+   "fr": "Ça, c'est ton téléphone.",
+   "tokens": [
+    "那",
+    "是",
+    "你",
+    "的",
+    "手机",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C3",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你的狗叫什么名字？",
+   "pinyin": "Nǐ de gǒu jiào shénme míngzi?",
+   "en": "",
+   "fr": "Comment s'appelle ton chien ?",
+   "tokens": [
+    "你",
+    "的",
+    "狗",
+    "叫",
+    "什么",
+    "名字",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C4",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他在中国学习。",
+   "pinyin": "Tā zài Zhōngguó xuéxí.",
+   "en": "",
+   "fr": "Il étudie en Chine.",
+   "tokens": [
+    "他",
+    "在",
+    "中国",
+    "学习",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C5",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我是法国学生。",
+   "pinyin": "Wǒ shì Fǎguó xuéshēng.",
+   "en": "",
+   "fr": "Je suis un étudiant français.",
+   "tokens": [
+    "我",
+    "是",
+    "法国",
+    "学生",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C6",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们在北京交通大学学中文。",
+   "pinyin": "Wǒmen zài Běijīng jiāotōng dàxué xué Zhōngwén.",
+   "en": "",
+   "fr": "Nous étudions le chinois à l'université Jiaotong de Pékin.",
+   "tokens": [
+    "我们",
+    "在",
+    "北京",
+    "交通",
+    "大学",
+    "学",
+    "中文",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C7",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这个人是我的同学。",
+   "pinyin": "Zhège rén shì wǒ de tóngxué.",
+   "en": "",
+   "fr": "Cette personne est mon camarade de classe.",
+   "tokens": [
+    "这个",
+    "人",
+    "是",
+    "我",
+    "的",
+    "同学",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C8",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你是谁？",
+   "pinyin": "Nǐ shì shéi/shuí?",
+   "en": "",
+   "fr": "Qui es-tu ?",
+   "tokens": [
+    "你",
+    "是",
+    "谁",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C9",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "谁是你妈妈？",
+   "pinyin": "Shéi/shuí shì nǐ māma?",
+   "en": "",
+   "fr": "Qui est ta maman ?",
+   "tokens": [
+    "谁",
+    "是",
+    "你",
+    "妈妈",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C10",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这是谁的手机？",
+   "pinyin": "Zhè shì shéi/shuí de shǒujī?",
+   "en": "",
+   "fr": "À qui est ce téléphone ?",
+   "tokens": [
+    "这",
+    "是",
+    "谁",
+    "的",
+    "手机",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C11",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你是哪国人？",
+   "pinyin": "Nǐ shì nǎ guó rén?",
+   "en": "",
+   "fr": "Tu es de quel pays ?",
+   "tokens": [
+    "你",
+    "是",
+    "哪",
+    "国",
+    "人",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C12",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我是中国人。",
+   "pinyin": "Wǒ shì Zhōngguó rén.",
+   "en": "",
+   "fr": "Je suis chinois.",
+   "tokens": [
+    "我",
+    "是",
+    "中国",
+    "人",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C13",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "哪个人是你朋友？",
+   "pinyin": "Nǎge rén shì nǐ péngyou?",
+   "en": "",
+   "fr": "Laquelle de ces personnes est ton ami ?",
+   "tokens": [
+    "哪个",
+    "人",
+    "是",
+    "你",
+    "朋友",
+    "？"
+   ]
+  },
+  {
+   "id": "L3-C14",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他是我朋友。",
+   "pinyin": "Tā shì wǒ péngyou.",
+   "en": "",
+   "fr": "C'est mon ami.",
+   "tokens": [
+    "他",
+    "是",
+    "我",
+    "朋友",
+    "。"
+   ]
+  },
+  {
+   "id": "L3-C15",
+   "lesson": 3,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她是英国人。",
+   "pinyin": "Tā shì Yīngguó rén.",
+   "en": "",
+   "fr": "Elle est anglaise.",
+   "tokens": [
+    "她",
+    "是",
+    "英国",
+    "人",
     "。"
    ]
   },
@@ -2859,6 +5242,346 @@
    ]
   },
   {
+   "id": "L4-C1",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你去泰国。",
+   "pinyin": "Nǐ qù Tàiguó.",
+   "en": "",
+   "fr": "Tu vas en Thaïlande.",
+   "tokens": [
+    "你",
+    "去",
+    "泰国",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C2",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他有三个姐姐。",
+   "pinyin": "Tā yǒu sān gè jiějie.",
+   "en": "",
+   "fr": "Il a trois grandes sœurs.",
+   "tokens": [
+    "他",
+    "有",
+    "三",
+    "个",
+    "姐姐",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C3",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我没有姐姐。",
+   "pinyin": "Wǒ méiyǒu jiějie.",
+   "en": "",
+   "fr": "Je n'ai pas de grande sœur.",
+   "tokens": [
+    "我",
+    "没有",
+    "姐姐",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C4",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你喜欢你的工作吗？",
+   "pinyin": "Nǐ xǐhuan nǐ de gōngzuò ma?",
+   "en": "",
+   "fr": "Tu aimes ton travail ?",
+   "tokens": [
+    "你",
+    "喜欢",
+    "你",
+    "的",
+    "工作",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C5",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我今天不忙。",
+   "pinyin": "Wǒ jīntiān bù máng.",
+   "en": "",
+   "fr": "Aujourd'hui, je ne suis pas occupé.",
+   "tokens": [
+    "我",
+    "今天",
+    "不",
+    "忙",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C6",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她还在泰国吗？",
+   "pinyin": "Tā hái zài Tàiguó ma?",
+   "en": "",
+   "fr": "Elle est encore en Thaïlande ?",
+   "tokens": [
+    "她",
+    "还",
+    "在",
+    "泰国",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C7",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他有车。",
+   "pinyin": "Tā yǒu chē.",
+   "en": "",
+   "fr": "Il a une voiture.",
+   "tokens": [
+    "他",
+    "有",
+    "车",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C8",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你有多少钱？",
+   "pinyin": "Nǐ yǒu duōshao qián?",
+   "en": "",
+   "fr": "Combien d'argent as-tu ?",
+   "tokens": [
+    "你",
+    "有",
+    "多少",
+    "钱",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C9",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她哥哥很好。",
+   "pinyin": "Tā gēge hěn hǎo.",
+   "en": "",
+   "fr": "Son grand frère est très gentil.",
+   "tokens": [
+    "她",
+    "哥哥",
+    "很",
+    "好",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C10",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他还没有女朋友。",
+   "pinyin": "Tā hái méiyǒu nǚpéngyou.",
+   "en": "",
+   "fr": "Il n'a pas encore de petite amie.",
+   "tokens": [
+    "他",
+    "还",
+    "没有",
+    "女朋友",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C11",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她家没有狗。",
+   "pinyin": "Tā jiā méiyǒu gǒu.",
+   "en": "",
+   "fr": "Sa famille n'a pas de chien.",
+   "tokens": [
+    "她",
+    "家",
+    "没有",
+    "狗",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C12",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他有几个哥哥？",
+   "pinyin": "Tā yǒu jǐ gè gēge?",
+   "en": "",
+   "fr": "Combien de grands frères a-t-il ?",
+   "tokens": [
+    "他",
+    "有",
+    "几",
+    "个",
+    "哥哥",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C13",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他没有妹妹。",
+   "pinyin": "Tā méiyǒu mèimei.",
+   "en": "",
+   "fr": "Il n'a pas de petite sœur.",
+   "tokens": [
+    "他",
+    "没有",
+    "妹妹",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C14",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我吃米饭和饺子。",
+   "pinyin": "Wǒ chī mǐfàn hé jiǎozi.",
+   "en": "",
+   "fr": "Je mange du riz et des raviolis.",
+   "tokens": [
+    "我",
+    "吃",
+    "米饭",
+    "和",
+    "饺子",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C15",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你家有几个孩子？",
+   "pinyin": "Nǐ jiā yǒu jǐ gè háizi?",
+   "en": "",
+   "fr": "Combien d'enfants y a-t-il dans ta famille ?",
+   "tokens": [
+    "你",
+    "家",
+    "有",
+    "几",
+    "个",
+    "孩子",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C16",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她是我家的二女儿。",
+   "pinyin": "Tā shì wǒ jiā de èr nǚ'ér.",
+   "en": "",
+   "fr": "C'est notre deuxième fille.",
+   "tokens": [
+    "她",
+    "是",
+    "我",
+    "家",
+    "的",
+    "二",
+    "女儿",
+    "。"
+   ]
+  },
+  {
+   "id": "L4-C17",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你几岁？",
+   "pinyin": "Nǐ jǐ suì?",
+   "en": "",
+   "fr": "Tu as quel âge ? (enfant)",
+   "tokens": [
+    "你",
+    "几",
+    "岁",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C18",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你多大？",
+   "pinyin": "Nǐ duō dà?",
+   "en": "",
+   "fr": "Tu as quel âge ?",
+   "tokens": [
+    "你",
+    "多大",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C19",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "您多大？",
+   "pinyin": "Nín duō dà?",
+   "en": "",
+   "fr": "Quel âge avez-vous ?",
+   "tokens": [
+    "您",
+    "多大",
+    "？"
+   ]
+  },
+  {
+   "id": "L4-C20",
+   "lesson": 4,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "您高寿？",
+   "pinyin": "Nín gāoshòu?",
+   "en": "",
+   "fr": "Quel âge avez-vous ? (personne très âgée)",
+   "tokens": [
+    "您",
+    "高寿",
+    "？"
+   ]
+  },
+  {
    "id": "L5-T1-S1",
    "lesson": 5,
    "text": 1,
@@ -3106,6 +5829,423 @@
     "很",
     "喜欢",
     "它",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C1",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今年是2026年。",
+   "pinyin": "Jīnnián shì 2026 nián.",
+   "en": "",
+   "fr": "Cette année, c'est 2026.",
+   "tokens": [
+    "今年",
+    "是",
+    "2026",
+    "年",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C2",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "多贵？",
+   "pinyin": "Duō guì?",
+   "en": "",
+   "fr": "Combien ça coûte ?",
+   "tokens": [
+    "多贵",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C3",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "一年有12个月。",
+   "pinyin": "Yì nián yǒu 12 gè yuè.",
+   "en": "",
+   "fr": "Une année a 12 mois.",
+   "tokens": [
+    "一",
+    "年",
+    "有",
+    "12",
+    "个",
+    "月",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C4",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "昨天你写作业了吗？",
+   "pinyin": "Zuótiān nǐ xiě zuòyè le ma?",
+   "en": "",
+   "fr": "Hier, tu as fait tes devoirs ?",
+   "tokens": [
+    "昨天",
+    "你",
+    "写",
+    "作业",
+    "了",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C5",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今天是星期几？",
+   "pinyin": "Jīntiān shì xīngqī jǐ?",
+   "en": "",
+   "fr": "Quel jour sommes-nous ?",
+   "tokens": [
+    "今天",
+    "是",
+    "星期几",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C6",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "星期三。",
+   "pinyin": "Xīngqīsān.",
+   "en": "",
+   "fr": "Mercredi.",
+   "tokens": [
+    "星期三",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C7",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她去美国两个星期。",
+   "pinyin": "Tā qù Měiguó liǎng gè xīngqī.",
+   "en": "",
+   "fr": "Elle va aux États-Unis pour deux semaines.",
+   "tokens": [
+    "她",
+    "去",
+    "美国",
+    "两",
+    "个",
+    "星期",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C8",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "星期天我没有汉语课。",
+   "pinyin": "Xīngqītiān wǒ méiyǒu Hànyǔ kè.",
+   "en": "",
+   "fr": "Le dimanche, je n'ai pas cours de chinois.",
+   "tokens": [
+    "星期天",
+    "我",
+    "没有",
+    "汉语课",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C9",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "明天是几号？",
+   "pinyin": "Míngtiān shì jǐ hào?",
+   "en": "",
+   "fr": "Demain, on est le combien ?",
+   "tokens": [
+    "明天",
+    "是",
+    "几",
+    "号",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C10",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "现在是2026年10月14号星期三。",
+   "pinyin": "Xiànzài shì 2026 nián 10 yuè 14 hào xīngqīsān.",
+   "en": "",
+   "fr": "Nous sommes le mercredi 14 octobre 2026.",
+   "tokens": [
+    "现在",
+    "是",
+    "2026",
+    "年",
+    "10",
+    "月",
+    "14",
+    "号",
+    "星期三",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C11",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "星期天我休息。",
+   "pinyin": "Xīngqītiān wǒ xiūxi.",
+   "en": "",
+   "fr": "Le dimanche, je me repose.",
+   "tokens": [
+    "星期天",
+    "我",
+    "休息",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C12",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他会写汉字。",
+   "pinyin": "Tā huì xiě Hànzì.",
+   "en": "",
+   "fr": "Il sait écrire les caractères chinois.",
+   "tokens": [
+    "他",
+    "会",
+    "写",
+    "汉字",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C13",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我喜欢做饭。",
+   "pinyin": "Wǒ xǐhuan zuò fàn.",
+   "en": "",
+   "fr": "J'aime cuisiner.",
+   "tokens": [
+    "我",
+    "喜欢",
+    "做饭",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C14",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今天做什么饭？",
+   "pinyin": "Jīntiān zuò shénme fàn?",
+   "en": "",
+   "fr": "Qu'est-ce qu'on cuisine aujourd'hui ?",
+   "tokens": [
+    "今天",
+    "做",
+    "什么",
+    "饭",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C15",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她想学做菜。",
+   "pinyin": "Tā xiǎng xué zuò cài.",
+   "en": "",
+   "fr": "Elle veut apprendre à cuisiner.",
+   "tokens": [
+    "她",
+    "想",
+    "学",
+    "做",
+    "菜",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C16",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "妈妈今天做面条儿。",
+   "pinyin": "Māma jīntiān zuò miàntiáor.",
+   "en": "",
+   "fr": "Aujourd'hui, maman fait des nouilles.",
+   "tokens": [
+    "妈妈",
+    "今天",
+    "做",
+    "面条儿",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C17",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "饺子很好吃。",
+   "pinyin": "Jiǎozi hěn hǎochī.",
+   "en": "",
+   "fr": "Les raviolis sont très bons.",
+   "tokens": [
+    "饺子",
+    "很",
+    "好吃",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C18",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这儿有一些苹果。",
+   "pinyin": "Zhèr yǒu yìxiē píngguǒ.",
+   "en": "",
+   "fr": "Il y a quelques pommes ici.",
+   "tokens": [
+    "这儿",
+    "有",
+    "一些",
+    "苹果",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C19",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "她六点下班。",
+   "pinyin": "Tā liù diǎn xiàbān.",
+   "en": "",
+   "fr": "Elle finit le travail à six heures.",
+   "tokens": [
+    "她",
+    "六",
+    "点",
+    "下班",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C20",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我买了一件新衣服。",
+   "pinyin": "Wǒ mǎi le yí jiàn xīn yīfu.",
+   "en": "",
+   "fr": "J'ai acheté un nouveau vêtement.",
+   "tokens": [
+    "我",
+    "买",
+    "了",
+    "一",
+    "件",
+    "新",
+    "衣服",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C21",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这个电脑贵吗？",
+   "pinyin": "Zhège diànnǎo guì ma?",
+   "en": "",
+   "fr": "Cet ordinateur est cher ?",
+   "tokens": [
+    "这个",
+    "电脑",
+    "贵",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L5-C22",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "咖啡真好喝。",
+   "pinyin": "Kāfēi zhēn hǎohē.",
+   "en": "",
+   "fr": "Le café est vraiment bon.",
+   "tokens": [
+    "咖啡",
+    "真",
+    "好喝",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C23",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这本书很好看。",
+   "pinyin": "Zhè běn shū hěn hǎokàn.",
+   "en": "",
+   "fr": "Ce livre est très intéressant.",
+   "tokens": [
+    "这",
+    "本",
+    "书",
+    "很",
+    "好看",
+    "。"
+   ]
+  },
+  {
+   "id": "L5-C24",
+   "lesson": 5,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "它是一只可爱的小狗。",
+   "pinyin": "Tā shì yì zhī kě'ài de xiǎo gǒu.",
+   "en": "",
+   "fr": "C'est un petit chien mignon.",
+   "tokens": [
+    "它",
+    "是",
+    "一",
+    "只",
+    "可爱",
+    "的",
+    "小",
+    "狗",
     "。"
    ]
   },
@@ -3369,6 +6509,403 @@
     "出租车",
     "去",
     "。"
+   ]
+  },
+  {
+   "id": "L6-C1",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你给谁打电话？",
+   "pinyin": "Nǐ gěi shéi/shuí dǎ diànhuà?",
+   "en": "",
+   "fr": "Tu téléphones à qui ?",
+   "tokens": [
+    "你",
+    "给",
+    "谁",
+    "打电话",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C2",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你的手机号是什么？",
+   "pinyin": "Nǐ de shǒujīhào shì shénme?",
+   "en": "",
+   "fr": "C'est quoi ton numéro de portable ?",
+   "tokens": [
+    "你",
+    "的",
+    "手机号",
+    "是",
+    "什么",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C3",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这个手机很好看。",
+   "pinyin": "Zhège shǒujī hěn hǎokàn.",
+   "en": "",
+   "fr": "Ce téléphone est très joli.",
+   "tokens": [
+    "这个",
+    "手机",
+    "很",
+    "好看",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C4",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你住几号楼？",
+   "pinyin": "Nǐ zhù jǐ hào lóu?",
+   "en": "",
+   "fr": "Tu habites dans quel bâtiment ?",
+   "tokens": [
+    "你",
+    "住",
+    "几",
+    "号",
+    "楼",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C5",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你住几号房间？",
+   "pinyin": "Nǐ zhù jǐ hào fángjiān?",
+   "en": "",
+   "fr": "Tu habites dans quelle chambre ?",
+   "tokens": [
+    "你",
+    "住",
+    "几",
+    "号",
+    "房间",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C6",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "牛奶很好喝。",
+   "pinyin": "Niúnǎi hěn hǎohē.",
+   "en": "",
+   "fr": "Le lait est très bon.",
+   "tokens": [
+    "牛奶",
+    "很",
+    "好喝",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C7",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你家在哪儿？",
+   "pinyin": "Nǐ jiā zài nǎr?",
+   "en": "",
+   "fr": "Où est ta maison ?",
+   "tokens": [
+    "你",
+    "家",
+    "在",
+    "哪儿",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C8",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "哪儿有超市？",
+   "pinyin": "Nǎr yǒu chāoshì?",
+   "en": "",
+   "fr": "Où y a-t-il un supermarché ?",
+   "tokens": [
+    "哪儿",
+    "有",
+    "超市",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C9",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "明年你去不去泰国？",
+   "pinyin": "Míngnián nǐ qù bú qù Tàiguó?",
+   "en": "",
+   "fr": "L'année prochaine, tu vas en Thaïlande ou pas ?",
+   "tokens": [
+    "明年",
+    "你",
+    "去",
+    "不",
+    "去",
+    "泰国",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C10",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "下个星期见！",
+   "pinyin": "Xià ge xīngqī jiàn!",
+   "en": "",
+   "fr": "À la semaine prochaine !",
+   "tokens": [
+    "下个星期",
+    "见",
+    "！"
+   ]
+  },
+  {
+   "id": "L6-C11",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "老师，明天见！",
+   "pinyin": "Lǎoshī, míngtiān jiàn!",
+   "en": "",
+   "fr": "Au revoir professeur, à demain !",
+   "tokens": [
+    "老师",
+    "，",
+    "明天",
+    "见",
+    "！"
+   ]
+  },
+  {
+   "id": "L6-C12",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我想买衣服。",
+   "pinyin": "Wǒ xiǎng mǎi yīfu.",
+   "en": "",
+   "fr": "Je veux acheter des vêtements.",
+   "tokens": [
+    "我",
+    "想",
+    "买",
+    "衣服",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C13",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我去买东西。",
+   "pinyin": "Wǒ qù mǎi dōngxi.",
+   "en": "",
+   "fr": "Je vais faire des courses.",
+   "tokens": [
+    "我",
+    "去",
+    "买",
+    "东西",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C14",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "超市有很多东西。",
+   "pinyin": "Chāoshì yǒu hěn duō dōngxi.",
+   "en": "",
+   "fr": "Il y a beaucoup de choses au supermarché.",
+   "tokens": [
+    "超市",
+    "有",
+    "很多",
+    "东西",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C15",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你怎么样？",
+   "pinyin": "Nǐ zěnmeyàng?",
+   "en": "",
+   "fr": "Comment vas-tu ?",
+   "tokens": [
+    "你",
+    "怎么样",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C16",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你知道这个菜怎么做吗？",
+   "pinyin": "Nǐ zhīdào zhège cài zěnme zuò ma?",
+   "en": "",
+   "fr": "Tu sais comment on fait ce plat ?",
+   "tokens": [
+    "你",
+    "知道",
+    "这个",
+    "菜",
+    "怎么",
+    "做",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C17",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你想吃什么？",
+   "pinyin": "Nǐ xiǎng chī shénme?",
+   "en": "",
+   "fr": "Qu'est-ce que tu veux manger ?",
+   "tokens": [
+    "你",
+    "想",
+    "吃",
+    "什么",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C18",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "晚饭你想吃什么？",
+   "pinyin": "Wǎnfàn nǐ xiǎng chī shénme?",
+   "en": "",
+   "fr": "Qu'est-ce que tu veux manger au dîner ?",
+   "tokens": [
+    "晚饭",
+    "你",
+    "想",
+    "吃",
+    "什么",
+    "？"
+   ]
+  },
+  {
+   "id": "L6-C19",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "那边有很多人。",
+   "pinyin": "Nàbiān yǒu hěn duō rén.",
+   "en": "",
+   "fr": "Il y a beaucoup de monde là-bas.",
+   "tokens": [
+    "那边",
+    "有",
+    "很多",
+    "人",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C20",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "看那边！",
+   "pinyin": "Kàn nàbiān!",
+   "en": "",
+   "fr": "Regarde là-bas !",
+   "tokens": [
+    "看",
+    "那边",
+    "！"
+   ]
+  },
+  {
+   "id": "L6-C21",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "早上我吃了两个包子。",
+   "pinyin": "Zǎoshang wǒ chī le liǎng gè bāozi.",
+   "en": "",
+   "fr": "Ce matin, j'ai mangé deux brioches.",
+   "tokens": [
+    "早上",
+    "我",
+    "吃",
+    "了",
+    "两",
+    "个",
+    "包子",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C22",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这本书非常好看。",
+   "pinyin": "Zhè běn shū fēicháng hǎokàn.",
+   "en": "",
+   "fr": "Ce livre est extrêmement intéressant.",
+   "tokens": [
+    "这",
+    "本",
+    "书",
+    "非常",
+    "好看",
+    "。"
+   ]
+  },
+  {
+   "id": "L6-C23",
+   "lesson": 6,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今天做米饭了吗？",
+   "pinyin": "Jīntiān zuò mǐfàn le ma?",
+   "en": "",
+   "fr": "Aujourd'hui, tu as fait du riz ?",
+   "tokens": [
+    "今天",
+    "做",
+    "米饭",
+    "了",
+    "吗",
+    "？"
    ]
   },
   {
@@ -3650,6 +7187,353 @@
     "分钟",
     "后",
     "去",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C1",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我去超市买可乐。",
+   "pinyin": "Wǒ qù chāoshì mǎi kělè.",
+   "en": "",
+   "fr": "Je vais au supermarché acheter du coca.",
+   "tokens": [
+    "我",
+    "去",
+    "超市",
+    "买",
+    "可乐",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C2",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "现在八点十八分。",
+   "pinyin": "Xiànzài bā diǎn shí bā fēn.",
+   "en": "",
+   "fr": "Il est huit heures dix-huit.",
+   "tokens": [
+    "现在",
+    "八",
+    "点",
+    "十",
+    "八",
+    "分",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C3",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "一个小时有60分钟。",
+   "pinyin": "Yí gè xiǎoshí yǒu 60 fēnzhōng.",
+   "en": "",
+   "fr": "Une heure a 60 minutes.",
+   "tokens": [
+    "一",
+    "个",
+    "小时",
+    "有",
+    "60",
+    "分钟",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C4",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他上午有汉语课吗？",
+   "pinyin": "Tā shàngwǔ yǒu Hànyǔ kè ma?",
+   "en": "",
+   "fr": "Il a cours de chinois le matin ?",
+   "tokens": [
+    "他",
+    "上午",
+    "有",
+    "汉语课",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L7-C5",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们今天下午不上课。",
+   "pinyin": "Wǒmen jīntiān xiàwǔ bú shàngkè.",
+   "en": "",
+   "fr": "Cet après-midi, nous n'avons pas cours.",
+   "tokens": [
+    "我们",
+    "今天",
+    "下午",
+    "不",
+    "上课",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C6",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今天我们学第七课。",
+   "pinyin": "Jīntiān wǒmen xué dì qī kè.",
+   "en": "",
+   "fr": "Aujourd'hui, nous étudions la leçon 7.",
+   "tokens": [
+    "今天",
+    "我们",
+    "学",
+    "第",
+    "七",
+    "课",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C7",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们下午三点在超市见。",
+   "pinyin": "Wǒmen xiàwǔ sān diǎn zài chāoshì jiàn.",
+   "en": "",
+   "fr": "On se retrouve au supermarché à trois heures de l'après-midi.",
+   "tokens": [
+    "我们",
+    "下午",
+    "三",
+    "点",
+    "在",
+    "超市",
+    "见",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C8",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我们去饭店吃饭吧。",
+   "pinyin": "Wǒmen qù fàndiàn chī fàn ba.",
+   "en": "",
+   "fr": "Allons manger au restaurant.",
+   "tokens": [
+    "我们",
+    "去",
+    "饭店",
+    "吃",
+    "饭",
+    "吧",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C9",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "好吧。",
+   "pinyin": "Hǎo ba.",
+   "en": "",
+   "fr": "D'accord.",
+   "tokens": [
+    "好吧",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C10",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "上课别看手机！",
+   "pinyin": "Shàngkè bié kàn shǒujī!",
+   "en": "",
+   "fr": "Ne regarde pas ton téléphone en cours !",
+   "tokens": [
+    "上课",
+    "别",
+    "看",
+    "手机",
+    "！"
+   ]
+  },
+  {
+   "id": "L7-C11",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这个电影很好看。",
+   "pinyin": "Zhège diànyǐng hěn hǎokàn.",
+   "en": "",
+   "fr": "Ce film est très bien.",
+   "tokens": [
+    "这个",
+    "电影",
+    "很",
+    "好看",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C12",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "电影院的人很多。",
+   "pinyin": "Diànyǐngyuàn de rén hěn duō.",
+   "en": "",
+   "fr": "Il y a beaucoup de monde au cinéma.",
+   "tokens": [
+    "电影院",
+    "的",
+    "人",
+    "很多",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C13",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这个星期的事太多了。",
+   "pinyin": "Zhè ge xīngqī de shì tài duō le.",
+   "en": "",
+   "fr": "Il y a trop de choses à faire cette semaine.",
+   "tokens": [
+    "这个星期",
+    "的",
+    "事",
+    "太",
+    "多",
+    "了",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C14",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你好，你有什么事？",
+   "pinyin": "Nǐ hǎo, nǐ yǒu shénme shì?",
+   "en": "",
+   "fr": "Bonjour, qu'est-ce qu'il y a ?",
+   "tokens": [
+    "你好",
+    "，",
+    "你",
+    "有",
+    "什么",
+    "事",
+    "？"
+   ]
+  },
+  {
+   "id": "L7-C15",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "同学们在上课。",
+   "pinyin": "Tóngxuémen zài shàngkè.",
+   "en": "",
+   "fr": "Les élèves sont en cours.",
+   "tokens": [
+    "同学们",
+    "在",
+    "上课",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C16",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我生病了，不去上课。",
+   "pinyin": "Wǒ shēngbìng le, bú qù shàngkè.",
+   "en": "",
+   "fr": "Je suis malade, je ne vais pas en cours.",
+   "tokens": [
+    "我",
+    "生病",
+    "了",
+    "，",
+    "不",
+    "去",
+    "上课",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C17",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "下课了，我去食堂吃饭。",
+   "pinyin": "Xiàkè le, wǒ qù shítáng chī fàn.",
+   "en": "",
+   "fr": "Le cours est fini, je vais manger à la cantine.",
+   "tokens": [
+    "下课",
+    "了",
+    "，",
+    "我",
+    "去",
+    "食堂",
+    "吃",
+    "饭",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C18",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "他吃了一个半苹果。",
+   "pinyin": "Tā chī le yí gè bàn píngguǒ.",
+   "en": "",
+   "fr": "Il a mangé une pomme et demie.",
+   "tokens": [
+    "他",
+    "吃",
+    "了",
+    "一",
+    "个",
+    "半",
+    "苹果",
+    "。"
+   ]
+  },
+  {
+   "id": "L7-C19",
+   "lesson": 7,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "现在两点半。",
+   "pinyin": "Xiànzài liǎng diǎn bàn.",
+   "en": "",
+   "fr": "Il est deux heures et demie.",
+   "tokens": [
+    "现在",
+    "两",
+    "点",
+    "半",
     "。"
    ]
   },
@@ -4157,6 +8041,319 @@
     "面条儿",
     "。"
    ]
+  },
+  {
+   "id": "L8-C13",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "小猫在柜子里。",
+   "pinyin": "Xiǎo māo zài guìzi li/lǐ.",
+   "en": "",
+   "fr": "Le petit chat est dans l'armoire.",
+   "tokens": [
+    "小",
+    "猫",
+    "在",
+    "柜子",
+    "里",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C14",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "您家真漂亮！",
+   "pinyin": "Nín jiā zhēn piàoliang!",
+   "en": "",
+   "fr": "Votre maison est vraiment belle !",
+   "tokens": [
+    "您",
+    "家",
+    "真",
+    "漂亮",
+    "！"
+   ]
+  },
+  {
+   "id": "L8-C15",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你现在在家吗？",
+   "pinyin": "Nǐ xiànzài zài jiā ma?",
+   "en": "",
+   "fr": "Tu es à la maison maintenant ?",
+   "tokens": [
+    "你",
+    "现在",
+    "在家",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C16",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "对，我在家。",
+   "pinyin": "Duì, wǒ zài jiā.",
+   "en": "",
+   "fr": "Oui, je suis à la maison.",
+   "tokens": [
+    "对",
+    "，",
+    "我",
+    "在家",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C17",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "晚上你想去哪儿？",
+   "pinyin": "Wǎnshang nǐ xiǎng qù nǎr?",
+   "en": "",
+   "fr": "Où veux-tu aller ce soir ?",
+   "tokens": [
+    "晚上",
+    "你",
+    "想",
+    "去",
+    "哪儿",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C18",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我爸爸在医院工作。",
+   "pinyin": "Wǒ bàba zài yīyuàn gōngzuò.",
+   "en": "",
+   "fr": "Mon père travaille à l'hôpital.",
+   "tokens": [
+    "我",
+    "爸爸",
+    "在",
+    "医院",
+    "工作",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C19",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "一个星期上五天班。",
+   "pinyin": "Yí gè xīngqī shàng wǔ tiān bān.",
+   "en": "",
+   "fr": "On travaille cinq jours par semaine.",
+   "tokens": [
+    "一",
+    "个",
+    "星期",
+    "上",
+    "五",
+    "天",
+    "班",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C20",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "这家店卖电脑和手机。",
+   "pinyin": "Zhè jiā diàn mài diànnǎo hé shǒujī.",
+   "en": "",
+   "fr": "Ce magasin vend des ordinateurs et des téléphones.",
+   "tokens": [
+    "这",
+    "家",
+    "店",
+    "卖",
+    "电脑",
+    "和",
+    "手机",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C21",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我明天早上去菜店买菜。",
+   "pinyin": "Wǒ míngtiān zǎoshang qù càidiàn mǎi cài.",
+   "en": "",
+   "fr": "Demain matin, je vais acheter des légumes à l'épicerie.",
+   "tokens": [
+    "我",
+    "明天",
+    "早上",
+    "去",
+    "菜店",
+    "买菜",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C22",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "汉语课有50分钟。",
+   "pinyin": "Hànyǔ kè yǒu 50 fēnzhōng.",
+   "en": "",
+   "fr": "Le cours de chinois dure 50 minutes.",
+   "tokens": [
+    "汉语课",
+    "有",
+    "50",
+    "分钟",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C23",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "两天后是周末。",
+   "pinyin": "Liǎng tiān hòu shì zhōumò.",
+   "en": "",
+   "fr": "Dans deux jours, c'est le week-end.",
+   "tokens": [
+    "两",
+    "天",
+    "后",
+    "是",
+    "周末",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C24",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "学校外有一家超市。",
+   "pinyin": "Xuéxiào wài yǒu yì jiā chāoshì.",
+   "en": "",
+   "fr": "Il y a un supermarché à l'extérieur de l'école.",
+   "tokens": [
+    "学校",
+    "外",
+    "有",
+    "一",
+    "家",
+    "超市",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C25",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你的宿舍有几个房间？",
+   "pinyin": "Nǐ de sùshè yǒu jǐ gè fángjiān?",
+   "en": "",
+   "fr": "Combien de pièces a ta résidence ?",
+   "tokens": [
+    "你",
+    "的",
+    "宿舍",
+    "有",
+    "几",
+    "个",
+    "房间",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C26",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你家有几只狗？",
+   "pinyin": "Nǐ jiā yǒu jǐ zhī gǒu?",
+   "en": "",
+   "fr": "Combien de chiens avez-vous chez toi ?",
+   "tokens": [
+    "你",
+    "家",
+    "有",
+    "几",
+    "只",
+    "狗",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C27",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我的猫白天睡觉，晚上玩。",
+   "pinyin": "Wǒ de māo báitiān shuìjiào, wǎnshang wán.",
+   "en": "",
+   "fr": "Mon chat dort la journée et joue le soir.",
+   "tokens": [
+    "我",
+    "的",
+    "猫",
+    "白天",
+    "睡觉",
+    "，",
+    "晚上",
+    "玩",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C28",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你的房间小吗？",
+   "pinyin": "Nǐ de fángjiān xiǎo ma?",
+   "en": "",
+   "fr": "Ta chambre est petite ?",
+   "tokens": [
+    "你",
+    "的",
+    "房间",
+    "小",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C29",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你看见什么了？",
+   "pinyin": "Nǐ kànjiàn shénme le?",
+   "en": "",
+   "fr": "Qu'est-ce que tu as vu ?",
+   "tokens": [
+    "你",
+    "看见",
+    "什么",
+    "了",
+    "？"
+   ]
   }
  ],
  "rules": [
@@ -4204,6 +8401,17 @@
     "L1-T3-S3"
    ],
    "derived": true
+  },
+  {
+   "id": "L1-R4",
+   "lesson": 1,
+   "kind": "tip",
+   "title": "Où placer le ton (cahier)",
+   "structure": "a > o > e > i > u > ü",
+   "fr": "ordre de priorité du ton",
+   "explanation": "Le ton se met sur la première voyelle de cette liste : a, o, e, i, u, ü. Exception : dans « iu » et « ui », le ton va sur la dernière voyelle (liù, duì, xiū). Exemples du cahier : lǎo, piào, duō, duì.",
+   "examples": [],
+   "derived": false
   },
   {
    "id": "L2-R1",
@@ -4289,6 +8497,17 @@
     "L3-T3-S3",
     "L3-T3-S4"
    ],
+   "derived": false
+  },
+  {
+   "id": "L3-R4",
+   "lesson": 3,
+   "kind": "tip",
+   "title": "Possession sans 的 (cahier)",
+   "structure": "我妈妈 = 我的妈妈",
+   "fr": "on peut omettre 的 pour les proches",
+   "explanation": "Pour une personne proche (famille, amis), on peut ne pas dire « 的 » : 我妈妈 = ma maman. Sinon : 他的朋友, 你的手机.",
+   "examples": [],
    "derived": false
   },
   {
@@ -4392,6 +8611,50 @@
    "derived": false
   },
   {
+   "id": "L4-R8",
+   "lesson": 4,
+   "kind": "tip",
+   "title": "几 ou 多少 ? (cahier)",
+   "structure": "几 + clf ; 多少",
+   "fr": "combien ?",
+   "explanation": "« 几 » s'emploie pour les petits nombres (moins de 10) et se met devant un classificateur : 你家有几口人？ « 多少 » s'emploie pour les grands nombres : 你有多少钱？ Sinon, c'est le même sens.",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L4-R9",
+   "lesson": 4,
+   "kind": "tip",
+   "title": "Demander l'âge (cahier)",
+   "structure": "你几岁？ / 你多大？ / 您多大？ / 您高寿？",
+   "fr": "selon l'âge de la personne",
+   "explanation": "Moins de 10 ans : 你几岁？ Plus de 10 ans : 你多大？ Personne plus âgée : 您多大？ Personne très âgée : 您高寿？",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L4-R10",
+   "lesson": 4,
+   "kind": "tip",
+   "title": "Lire les centaines (cahier)",
+   "structure": "514 = 五百一十四",
+   "fr": "le « 一 » de 十 au milieu",
+   "explanation": "Quand le dix est au milieu d'un nombre, on ajoute « 一 » : 514 = 五百一十四 wǔbǎi yīshísì. 100 = 一百 yìbǎi.",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L4-R11",
+   "lesson": 4,
+   "kind": "tip",
+   "title": "呢 : ne pas répéter la question (cahier)",
+   "structure": "… 呢？",
+   "fr": "« et … ? »",
+   "explanation": "On utilise « 呢 » pour ne pas répéter la question : 我很好，你呢？ = Je vais bien, et toi ?",
+   "examples": [],
+   "derived": false
+  },
+  {
    "id": "L5-R1",
    "lesson": 5,
    "kind": "grammar",
@@ -4467,6 +8730,28 @@
    "derived": false
   },
   {
+   "id": "L5-R6",
+   "lesson": 5,
+   "kind": "tip",
+   "title": "Avant / après : jours, années (cahier)",
+   "structure": "大前天 ← 前天 ← 昨天 ← 今天 → 明天 → 后天 → 大后天",
+   "fr": "situer dans le temps",
+   "explanation": "Jours : 大前天 (il y a 3 jours), 前天, 昨天, 今天, 明天, 后天, 大后天 (dans 3 jours). Années : 前年, 去年, 今年, 明年, 后年.",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L5-R7",
+   "lesson": 5,
+   "kind": "tip",
+   "title": "上 / 这 / 下 + 个月, 个星期 (cahier)",
+   "structure": "上个月 · 这个月 · 下个月",
+   "fr": "le mois / la semaine dernier, ce, prochain",
+   "explanation": "上 = avant, 这 = ce, 下 = après : 上个月 (le mois dernier), 这个月, 下个月 ; 上个星期, 这个星期, 下个星期. Avec 大 et en doublant : 大上个月 (il y a 3 mois), 上上个月 (il y a 2 mois), 下下个月 (dans 2 mois), 大下个月 (dans 3 mois).",
+   "examples": [],
+   "derived": false
+  },
+  {
    "id": "L6-R1",
    "lesson": 6,
    "kind": "grammar",
@@ -4534,6 +8819,28 @@
     "L6-T1-S2",
     "L6-T1-S3"
    ],
+   "derived": false
+  },
+  {
+   "id": "L6-R6",
+   "lesson": 6,
+   "kind": "tip",
+   "title": "幺 : le « 1 » des numéros (cahier)",
+   "structure": "1 = yāo",
+   "fr": "dans un numéro de téléphone",
+   "explanation": "Dans un numéro (téléphone, chambre, étudiant), on lit souvent « 1 » yāo au lieu de yī.",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L6-R7",
+   "lesson": 6,
+   "kind": "tip",
+   "title": "怎么 et 怎么样 (cahier)",
+   "structure": "怎么 + V ; 怎么样",
+   "fr": "comment ?",
+   "explanation": "1. 怎么 + verbe : comment faire ? 这个菜怎么做？ 2. 怎么样 : comment est… ? 你怎么样？",
+   "examples": [],
    "derived": false
   },
   {
@@ -4613,6 +8920,28 @@
    "derived": false
   },
   {
+   "id": "L7-R6",
+   "lesson": 7,
+   "kind": "tip",
+   "title": "点 / 分 et 小时 / 分钟 (cahier)",
+   "structure": "两点零五（分） ; 一个小时有60分钟",
+   "fr": "l'heure qu'il est ≠ la durée",
+   "explanation": "Pour dire l'heure : 点 (heure) et 分 (minute) : 2:05 = 两点零五（分）, 2:10 = 两点十分, 现在几点？ 现在八点十八分。 Pour une durée : 小时 (heures) et 分钟 (minutes) : 一个小时有60分钟。",
+   "examples": [],
+   "derived": false
+  },
+  {
+   "id": "L7-R7",
+   "lesson": 7,
+   "kind": "tip",
+   "title": "在 : deux emplois (cahier)",
+   "structure": "在 + lieu ; 在 + V",
+   "fr": "être à / être en train de",
+   "explanation": "1. 在 + lieu : 他在中国学习。 2. 在 + verbe : être en train de : 同学们在上课。",
+   "examples": [],
+   "derived": false
+  },
+  {
    "id": "L8-R1",
    "lesson": 8,
    "kind": "grammar",
@@ -4688,6 +9017,17 @@
    "examples": [
     "L8-T3-S1"
    ],
+   "derived": false
+  },
+  {
+   "id": "L8-R6",
+   "lesson": 8,
+   "kind": "tip",
+   "title": "不 ou 没 ? (cahier)",
+   "structure": "不 + V/adj ; 没(有) + V",
+   "fr": "deux négations",
+   "explanation": "« 不 » : pour le présent et le futur, les habitudes et les adjectifs (我今天不忙). « 没 » : pour le passé et pour le verbe 有 (我没有姐姐).",
+   "examples": [],
    "derived": false
   }
  ]

@@ -67,3 +67,8 @@ Rien ne manque dans les listes de vocabulaire numérotées : les mots ① à ⑫
 - L8-C1 你在楼下等我吧！ : le 1er caractère est coupé sur le scan, « 你 » supposé.
 - L8-C3 花很漂亮。 : un caractère avant 花 est peut-être coupé.
 - L8-C8 学校里有老师和同学。 : écrit « 学樫 » avec « xuéxiào » noté dessous ; lu 学校里.
+
+## Cahier complet (Document numérisé 10.pdf, 24 pages)
+- Leçon attribuée selon l'ordre des pages du cahier (p1-3 → L1, p4-6 → L2, p7-8 → L3, p9-12 → L4, p13-16 → L5, p17-19 → L6, p20-22 → L7, p23-24 → L8) : approximatif.
+- Pinyin des phrases du cahier généré depuis les mots (sandhi de 一/不 automatique).
+- Non repris : exercices de tons (p1, p3), listes de nombres à lire (p6), « 你想要一个新手… » (fin coupée), « 请问，你的是同学吗 » (phrase douteuse).

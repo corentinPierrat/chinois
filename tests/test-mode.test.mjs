@@ -56,6 +56,7 @@ test("cahier sentences: reorder questions in exam and cahier runs", () => {
   const run = buildRun("exam", t, pool, data.words, Math.random, sents);
   assert.equal(run.filter((q) => q.type === "reorder").length, 3);
   const c = buildRun("cahier", t, pool, data.words, Math.random, sents);
-  assert.equal(c.length, sents.length);
+  assert.equal(c.length, 20);
+  for (const q of c) assert.ok(q.answer.length >= 3);
   for (const q of c) assert.deepEqual(q.tokens.slice().sort(), q.answer.slice().sort());
 });

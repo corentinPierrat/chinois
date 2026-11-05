@@ -8,6 +8,7 @@ import { shuffle } from "./cards.js";
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const MAX_MISTAKES = 2; // même seuil que le mode Écrire
 const EXAM = { write: 10, rec: 10, recpy: 5, reorder: 3 };
+const CAHIER_RUN = 20;
 
 let testData = null;
 const loadTest = () => (testData ||= fetch("data/test.json").then((r) => {
@@ -19,7 +20,8 @@ const loadTest = () => (testData ||= fetch("data/test.json").then((r) => {
 export function buildRun(kind, test, pool, allWords, rng = Math.random, sents = []) {
   const w = (it) => ({ type: "write", item: it });
   const ro = (s) => ({ type: "reorder", s, ...reorderQuestion(s, rng) });
-  if (kind === "cahier") return shuffle(sents, rng).map(ro);
+  sents = sents.filter((s) => reorderQuestion(s, rng).answer.length >= 3);
+  if (kind === "cahier") return shuffle(sents, rng).slice(0, CAHIER_RUN).map(ro);
   if (kind === "numbers") return shuffle(test.numbers, rng).map(w);
   if (kind === "simples") return shuffle(test.simples, rng).map(w);
   if (kind === "writeall") return shuffle([...test.numbers, ...test.simples], rng).map(w);
@@ -62,7 +64,7 @@ export function render(root, ctx) {
         <button class="mode" data-run="writeall"><span class="ico">✍️</span>Toute l'écriture<small>0 à 10 + simples</small></button>
         <button class="mode" data-run="numbers"><span class="ico">🔢</span>Nombres<small>零 一 二 … 十</small></button>
         <button class="mode" data-run="simples"><span class="ico">⬆️</span>Simples<small>上 下 不 我 你 他…</small></button>
-        <button class="mode" data-run="cahier" ${sents.length ? "" : "disabled"}><span class="ico">📓</span>Phrases du cahier<small>${sents.length ? `${sents.length} phrases à remettre dans l'ordre` : "Coche la leçon 8"}</small></button>
+        <button class="mode" data-run="cahier" ${sents.length ? "" : "disabled"}><span class="ico">📓</span>Phrases du cahier<small>${sents.length ? `${Math.min(sents.length, CAHIER_RUN)} phrases à remettre dans l'ordre` : "Choisis des leçons sur l'accueil"}</small></button>
       </div>
       <p class="hint tnote"></p>`;
     loadTest().then((t) => { if (alive) { const n = root.querySelector(".tnote"); if (n) n.textContent = t.note; } }, () => {});
