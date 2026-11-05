@@ -1,5 +1,5 @@
 import { wordsFor } from "../data.js";
-import { makeChoiceQuestion } from "../quiz.js";
+import { makeChoiceQuestion, reorderQuestion } from "../quiz.js";
 import { itemKey, record } from "../srs.js";
 import { speak } from "../speech.js";
 import { charData, colors, GRID_SVG } from "../hanzi.js";
@@ -7,7 +7,7 @@ import { shuffle } from "./cards.js";
 
 const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 const MAX_MISTAKES = 2; // même seuil que le mode Écrire
-const EXAM = { write: 10, rec: 10, recpy: 5 };
+const EXAM = { write: 10, rec: 10, recpy: 5, reorder: 3 };
 
 let testData = null;
 const loadTest = () => (testData ||= fetch("data/test.json").then((r) => {
@@ -16,8 +16,10 @@ const loadTest = () => (testData ||= fetch("data/test.json").then((r) => {
 }).catch((e) => { testData = null; throw e; }));
 
 // Builds the question list for a run. Pure so it can be tested.
-export function buildRun(kind, test, pool, allWords, rng = Math.random) {
+export function buildRun(kind, test, pool, allWords, rng = Math.random, sents = []) {
   const w = (it) => ({ type: "write", item: it });
+  const ro = (s) => ({ type: "reorder", s, ...reorderQuestion(s, rng) });
+  if (kind === "cahier") return shuffle(sents, rng).map(ro);
   if (kind === "numbers") return shuffle(test.numbers, rng).map(w);
   if (kind === "simples") return shuffle(test.simples, rng).map(w);
   if (kind === "writeall") return shuffle([...test.numbers, ...test.simples], rng).map(w);
@@ -33,6 +35,7 @@ export function buildRun(kind, test, pool, allWords, rng = Math.random) {
     ...writes,
     ...qcm("rec", words.slice(0, EXAM.rec)),
     ...qcm("recpy", words.slice(EXAM.rec, EXAM.rec + EXAM.recpy)),
+    ...shuffle(sents, rng).slice(0, EXAM.reorder).map(ro),
   ];
 }
 
@@ -44,6 +47,7 @@ export function render(root, ctx) {
   const clear = () => { if (timer) { clearTimeout(timer); timer = null; } };
   const bar = (extra = "") => `<div class="bar"><button class="back">‹ Retour</button><h2>Test</h2>${extra}</div>`;
   const pool = wordsFor(ctx.data, ctx.lessons, { includeProper: false });
+  const sents = ctx.data.sentences.filter((s) => s.speaker === "cahier" && ctx.lessons.includes(s.lesson));
 
   function stopWriter() {
     if (writer) { try { writer.cancelQuiz(); } catch {} }
@@ -54,10 +58,11 @@ export function render(root, ctx) {
     clear(); stopWriter();
     root.innerHTML = bar() + `<p class="sub">Comme le jour de l'examen : pas d'indice, la note s'affiche à la fin.</p>
       <div class="modes tmodes">
-        <button class="mode primary" data-run="exam"><span class="ico">📝</span>Examen blanc<small>${EXAM.write} écritures + ${EXAM.rec + EXAM.recpy} QCM</small></button>
+        <button class="mode primary" data-run="exam"><span class="ico">📝</span>Examen blanc<small>${EXAM.write} écritures + ${EXAM.rec + EXAM.recpy} QCM${sents.length ? ` + ${Math.min(EXAM.reorder, sents.length)} phrases` : ""}</small></button>
         <button class="mode" data-run="writeall"><span class="ico">✍️</span>Toute l'écriture<small>0 à 10 + simples</small></button>
         <button class="mode" data-run="numbers"><span class="ico">🔢</span>Nombres<small>零 一 二 … 十</small></button>
         <button class="mode" data-run="simples"><span class="ico">⬆️</span>Simples<small>上 下 不 我 你 他…</small></button>
+        <button class="mode" data-run="cahier" ${sents.length ? "" : "disabled"}><span class="ico">📓</span>Phrases du cahier<small>${sents.length ? `${sents.length} phrases à remettre dans l'ordre` : "Coche la leçon 8"}</small></button>
       </div>
       <p class="hint tnote"></p>`;
     loadTest().then((t) => { if (alive) { const n = root.querySelector(".tnote"); if (n) n.textContent = t.note; } }, () => {});
@@ -76,7 +81,7 @@ export function render(root, ctx) {
     try { t = await loadTest(); }
     catch (e) { if (alive) root.innerHTML = bar() + `<p class="empty">${esc(e.message)}</p>`; return; }
     if (!alive) return;
-    run = only ? shuffle(only) : buildRun(kind, t, pool, ctx.data.words);
+    run = only ? shuffle(only) : buildRun(kind, t, pool, ctx.data.words, Math.random, sents);
     i = 0; results = [];
     if (typeof window.HanziWriter === "undefined" && run.some((q) => q.type === "write")) {
       root.innerHTML = bar() + `<p class="empty">Le module d'écriture n'a pas pu se charger.</p>`;
@@ -91,7 +96,7 @@ export function render(root, ctx) {
     clear(); stopWriter();
     if (i >= run.length) return end();
     cur = { ...run[i], done: false };
-    if (cur.type === "write") showWrite(); else showQcm();
+    if (cur.type === "write") showWrite(); else if (cur.type === "reorder") showReorder(); else showQcm();
   }
 
   function showWrite() {
@@ -183,6 +188,37 @@ export function render(root, ctx) {
     if (ok) timer = setTimeout(() => { i++; show(); }, 1000);
   }
 
+  function showReorder() {
+    cur.built = [];
+    root.innerHTML = bar(score()) +
+      `<p class="hint">Remets les mots dans l'ordre</p>
+      <p class="rfr">${esc(cur.s.fr)}</p>
+      <div class="rline hanzi" aria-label="Ta phrase"></div>
+      <div class="rbank hanzi"></div>
+      <div class="rtools"><button class="mode" data-act="clear">Effacer</button><button class="mode primary" data-act="check">Vérifier</button></div>
+      <div class="foot"><button class="next" data-act="next">Passer ›</button></div>`;
+    drawTokens();
+  }
+  function drawTokens() {
+    const b = cur.built, tk = cur.tokens;
+    root.querySelector(".rline").innerHTML = b.length
+      ? b.map((k, j) => `<button class="rtok" data-rm="${j}">${esc(tk[k])}</button>`).join("")
+      : `<span class="rempty">Touche les mots ci-dessous</span>`;
+    root.querySelector(".rbank").innerHTML = tk.map((x, k) => (b.includes(k) ? "" : `<button class="rtok" data-add="${k}">${esc(x)}</button>`)).join("");
+  }
+  function checkReorder() {
+    if (cur.done || cur.built.length !== cur.tokens.length) return;
+    cur.done = true;
+    const ok = cur.built.every((k, j) => cur.tokens[k] === cur.answer[j]);
+    results.push({ q: run[i], ok });
+    root.querySelector(".rline").classList.add(ok ? "ok" : "bad");
+    root.querySelector(".rtools").remove();
+    root.querySelector(".foot").innerHTML = `<p class="${ok ? "pyok" : "pybad"}">${ok ? "Correct" : "Pas tout à fait :"}</p>
+      <div class="rsol"><div class="hanzi">${esc(cur.s.hanzi)}</div><div class="py">${esc(cur.s.pinyin)}</div></div>
+      <button class="next" data-act="next">Suivant ›</button>`;
+    speak(cur.s.hanzi);
+  }
+
   function skip() {
     if (!cur.done) results.push({ q: run[i], ok: false });
     i++; show();
@@ -192,7 +228,9 @@ export function render(root, ctx) {
     const good = results.filter((r) => r.ok).length;
     const n = note20(good, results.length);
     const bad = results.filter((r) => !r.ok).map((r) => r.q);
-    const label = (q) => q.type === "write"
+    const label = (q) => q.type === "reorder"
+      ? { hz: q.s.hanzi, py: q.s.pinyin, fr: q.s.fr, kind: "phrase" }
+      : q.type === "write"
       ? { hz: q.item.hanzi, py: q.item.pinyin, fr: (q.item.digit ? q.item.digit + " · " : "") + q.item.fr, kind: "écriture" }
       : { hz: q.q.word.hanzi, py: q.q.word.pinyin, fr: q.q.word.fr || q.q.word.en, kind: q.field === "rec" ? "sens" : "pinyin" };
     root.innerHTML = bar() +
@@ -220,9 +258,16 @@ export function render(root, ctx) {
       const act = a.dataset.act;
       if (act === "next") { clear(); if (cur && cur.done) { i++; show(); } else if (cur) skip(); return; }
       if (act === "giveup" && cur && !cur.done && cur.type === "write") return finishWrite(false, 0, true);
-      if (act === "redo") return start(lastKind, root._bad);
+      if (act === "redo") return start(lastKind, root._bad.map((q) => (q.type === "reorder" ? { ...q, ...reorderQuestion(q.s) } : q)));
+      if (act === "clear" && cur && !cur.done) { cur.built = []; return drawTokens(); }
+      if (act === "check" && cur?.type === "reorder") return checkReorder();
       if (act === "again") { run = []; return home(); }
       return;
+    }
+    if (cur?.type === "reorder" && !cur.done) {
+      const ad = t.closest("[data-add]"), rm = t.closest("[data-rm]");
+      if (ad) { cur.built.push(Number(ad.dataset.add)); return drawTokens(); }
+      if (rm) { cur.built.splice(Number(rm.dataset.rm), 1); return drawTokens(); }
     }
     const c = t.closest(".choice");
     if (c && cur && cur.type === "qcm") answer(Number(c.dataset.i));

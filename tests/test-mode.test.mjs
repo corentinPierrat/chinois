@@ -48,3 +48,14 @@ test("infographie deck: complete cards, no duplicate hanzi", () => {
   const hz = info.cards.map((c) => c.hanzi);
   assert.equal(new Set(hz).size, hz.length);
 });
+
+test("cahier sentences: reorder questions in exam and cahier runs", () => {
+  const sents = data.sentences.filter((s) => s.speaker === "cahier");
+  assert.ok(sents.length >= 12);
+  const pool = data.words.filter((w) => !w.proper);
+  const run = buildRun("exam", t, pool, data.words, Math.random, sents);
+  assert.equal(run.filter((q) => q.type === "reorder").length, 3);
+  const c = buildRun("cahier", t, pool, data.words, Math.random, sents);
+  assert.equal(c.length, sents.length);
+  for (const q of c) assert.deepEqual(q.tokens.slice().sort(), q.answer.slice().sort());
+});

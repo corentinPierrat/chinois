@@ -2065,6 +2065,126 @@
    "fr": "Docteur Hu",
    "proper": true,
    "source": "manuel"
+  },
+  {
+   "id": "L8-N1",
+   "lesson": 8,
+   "n": 1,
+   "hanzi": "楼下",
+   "pinyin": "lóuxià",
+   "pos": "n.",
+   "en": "downstairs",
+   "fr": "en bas (de l’immeuble)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N2",
+   "lesson": 8,
+   "n": 2,
+   "hanzi": "等",
+   "pinyin": "děng",
+   "pos": "v.",
+   "en": "to wait",
+   "fr": "attendre",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N3",
+   "lesson": 8,
+   "n": 3,
+   "hanzi": "睡觉",
+   "pinyin": "shuìjiào",
+   "pos": "v.",
+   "en": "to sleep",
+   "fr": "dormir",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N4",
+   "lesson": 8,
+   "n": 4,
+   "hanzi": "教室",
+   "pinyin": "jiàoshì",
+   "pos": "n.",
+   "en": "classroom",
+   "fr": "salle de classe",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N5",
+   "lesson": 8,
+   "n": 5,
+   "hanzi": "生病",
+   "pinyin": "shēngbìng",
+   "pos": "v.",
+   "en": "to fall ill",
+   "fr": "tomber malade",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N6",
+   "lesson": 8,
+   "n": 6,
+   "hanzi": "上网",
+   "pinyin": "shàngwǎng",
+   "pos": "v.",
+   "en": "to go online",
+   "fr": "aller sur internet",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N7",
+   "lesson": 8,
+   "n": 7,
+   "hanzi": "碗",
+   "pinyin": "wǎn",
+   "pos": "m.",
+   "en": "bowl",
+   "fr": "bol (classificateur)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N8",
+   "lesson": 8,
+   "n": 8,
+   "hanzi": "要",
+   "pinyin": "yào",
+   "pos": "v.",
+   "en": "to want; will",
+   "fr": "vouloir ; aller (faire)",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N9",
+   "lesson": 8,
+   "n": 9,
+   "hanzi": "前边",
+   "pinyin": "qiánbian",
+   "pos": "n.",
+   "en": "front",
+   "fr": "devant",
+   "proper": false,
+   "source": "notes"
+  },
+  {
+   "id": "L8-N10",
+   "lesson": 8,
+   "n": 10,
+   "hanzi": "花",
+   "pinyin": "huā",
+   "pos": "n.",
+   "en": "flower",
+   "fr": "fleur",
+   "proper": false,
+   "source": "notes"
   }
  ],
  "sentences": [
@@ -3771,6 +3891,236 @@
     "对",
     "。"
    ]
+  },
+  {
+   "id": "L8-C1",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "你在楼下等我吧！",
+   "pinyin": "Nǐ zài lóuxià děng wǒ ba!",
+   "en": "",
+   "fr": "Attends-moi en bas !",
+   "tokens": [
+    "你",
+    "在",
+    "楼下",
+    "等",
+    "我",
+    "吧",
+    "！"
+   ]
+  },
+  {
+   "id": "L8-C2",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "小猫在桌子下睡觉。",
+   "pinyin": "Xiǎo māo zài zhuōzi xià shuìjiào.",
+   "en": "",
+   "fr": "Le petit chat dort sous la table.",
+   "tokens": [
+    "小",
+    "猫",
+    "在",
+    "桌子",
+    "下",
+    "睡觉",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C3",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "花很漂亮。",
+   "pinyin": "Huā hěn piàoliang.",
+   "en": "",
+   "fr": "Les fleurs sont très belles.",
+   "tokens": [
+    "花",
+    "很",
+    "漂亮",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C4",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我生病了，不能去上课。",
+   "pinyin": "Wǒ shēngbìng le, bù néng qù shàngkè.",
+   "en": "",
+   "fr": "Je suis malade, je ne peux pas aller en cours.",
+   "tokens": [
+    "我",
+    "生病",
+    "了",
+    "，",
+    "不",
+    "能",
+    "去",
+    "上课",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C5",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "房间里有wifi，能上网。",
+   "pinyin": "Fángjiān lǐ yǒu wifi, néng shàngwǎng.",
+   "en": "",
+   "fr": "Il y a le wifi dans la chambre, on peut aller sur internet.",
+   "tokens": [
+    "房间",
+    "里",
+    "有",
+    "wifi",
+    "，",
+    "能",
+    "上网",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C6",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "老师，我能不上课吗？",
+   "pinyin": "Lǎoshī, wǒ néng bù shàngkè ma?",
+   "en": "",
+   "fr": "Professeur, est-ce que je peux ne pas aller en cours ?",
+   "tokens": [
+    "老师",
+    "，",
+    "我",
+    "能",
+    "不",
+    "上课",
+    "吗",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C7",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我能吃三碗面条儿。",
+   "pinyin": "Wǒ néng chī sān wǎn miàntiáor.",
+   "en": "",
+   "fr": "Je peux manger trois bols de nouilles.",
+   "tokens": [
+    "我",
+    "能",
+    "吃",
+    "三",
+    "碗",
+    "面条儿",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C8",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "学校里有老师和同学。",
+   "pinyin": "Xuéxiào lǐ yǒu lǎoshī hé tóngxué.",
+   "en": "",
+   "fr": "À l’école, il y a des professeurs et des camarades.",
+   "tokens": [
+    "学校",
+    "里",
+    "有",
+    "老师",
+    "和",
+    "同学",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C9",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "我要去书店买书。",
+   "pinyin": "Wǒ yào qù shūdiàn mǎi shū.",
+   "en": "",
+   "fr": "Je vais aller à la librairie acheter des livres.",
+   "tokens": [
+    "我",
+    "要",
+    "去",
+    "书店",
+    "买",
+    "书",
+    "。"
+   ]
+  },
+  {
+   "id": "L8-C10",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "谁在我的前边？",
+   "pinyin": "Shéi zài wǒ de qiánbian?",
+   "en": "",
+   "fr": "Qui est devant moi ?",
+   "tokens": [
+    "谁",
+    "在",
+    "我",
+    "的",
+    "前边",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C11",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "喂，我到了，你在哪儿？",
+   "pinyin": "Wéi, wǒ dào le, nǐ zài nǎr?",
+   "en": "",
+   "fr": "Allô, je suis arrivé, tu es où ?",
+   "tokens": [
+    "喂",
+    "，",
+    "我",
+    "到",
+    "了",
+    "，",
+    "你",
+    "在",
+    "哪儿",
+    "？"
+   ]
+  },
+  {
+   "id": "L8-C12",
+   "lesson": 8,
+   "text": 0,
+   "speaker": "cahier",
+   "hanzi": "今天的午饭是面条儿。",
+   "pinyin": "Jīntiān de wǔfàn shì miàntiáor.",
+   "en": "",
+   "fr": "Aujourd’hui, le déjeuner, c’est des nouilles.",
+   "tokens": [
+    "今天",
+    "的",
+    "午饭",
+    "是",
+    "面条儿",
+    "。"
+   ]
   }
  ],
  "rules": [
@@ -4233,11 +4583,14 @@
    "title": "Les mots de position",
    "structure": "N + 上 / 下 / 里 / 外 / 前 / 后",
    "fr": "situer : 上, 下, 里, 外, 前, 后",
-   "explanation": "Les mots de position étudiés dans ce volume pour exprimer la direction et l'emplacement sont : 上, 下, 里, 外, 前, 后 et 外边. Exemples du manuel : 房间里有一只小猫。 我们去书店外吧。 小雪的手机在桌子上呢。",
+   "explanation": "Les mots de position étudiés dans ce volume pour exprimer la direction et l'emplacement sont : 上, 下, 里, 外, 前, 后 et 外边. Exemples du manuel : 房间里有一只小猫。 我们去书店外吧。 小雪的手机在桌子上呢。 Cahier : 车下 = en dessous de la voiture ; 你在楼下等我吧！ 小猫在桌子下睡觉。 谁在我的前边？",
    "examples": [
     "L8-T1-S1",
     "L8-T1-S3",
-    "L8-T2-S2"
+    "L8-T2-S2",
+    "L8-C2",
+    "L8-C10",
+    "L8-C8"
    ],
    "derived": false
   },
@@ -4264,10 +4617,14 @@
    "title": "能 : pouvoir",
    "structure": "能 + V ; 不能 + V",
    "fr": "« pouvoir »",
-   "explanation": "Le verbe modal « 能 » se place devant le verbe : il indique qu'on a la capacité, les conditions ou la possibilité de faire quelque chose. Exemples du manuel : 下午两点你能到吗？ 爸爸能去。 我不能去学校吃午饭。",
+   "explanation": "Le verbe modal « 能 » se place devant le verbe : il indique qu'on a la capacité, les conditions ou la possibilité de faire quelque chose. Exemples du manuel : 下午两点你能到吗？ 爸爸能去。 我不能去学校吃午饭。 Cahier — 4 sens de 能 : 1. possibilité (我生病了，不能去上课。) 2. condition (房间里有wifi，能上网。) 3. permission (老师，我能不上课吗？) 4. capacité (我能吃三碗面条儿。)",
    "examples": [
     "L8-T2-S3",
-    "L8-T2-S4"
+    "L8-T2-S4",
+    "L8-C4",
+    "L8-C5",
+    "L8-C6",
+    "L8-C7"
    ],
    "derived": false
   },

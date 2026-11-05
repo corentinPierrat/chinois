@@ -62,3 +62,8 @@ Rien ne manque dans les listes de vocabulaire numérotées : les mots ① à ⑫
 - Le motif 还没……呢 (« pas encore ») apparaît dans le texte 3, mais le manuel ne l'explique pas sur les pages photographiées : pas de règle créée.
 - L8-T2-S3 : le pinyin imprimé est serré (« liǎngdiǎn », « néngdào ») ; espaces ajoutés comme dans les autres textes.
 
+
+## Cahier (scan du 2026-11-05)
+- L8-C1 你在楼下等我吧！ : le 1er caractère est coupé sur le scan, « 你 » supposé.
+- L8-C3 花很漂亮。 : un caractère avant 花 est peut-être coupé.
+- L8-C8 学校里有老师和同学。 : écrit « 学樫 » avec « xuéxiào » noté dessous ; lu 学校里.
