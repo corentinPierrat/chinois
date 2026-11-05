@@ -6,6 +6,7 @@ const MODES = [
   ["#/ecrire", "Écrire", "✍️"],
   ["#/tons", "Pinyin & tons", "🎵"],
   ["#/regles", "Règles", "📐"],
+  ["#/cartes", "Cartes", "🃏"],
   ["#/progres", "Progrès", "📈"],
 ];
 
@@ -34,7 +35,7 @@ export function render(root, ctx) {
     }
     const n = wordsFor(ctx.data, ctx.lessons).length;
     count.textContent = `${n} mot${n > 1 ? "s" : ""} sélectionné${n > 1 ? "s" : ""}`;
-    root.querySelectorAll(".mode").forEach((b) => (b.disabled = n === 0 && b.dataset.h !== "#/progres"));
+    root.querySelectorAll(".mode").forEach((b) => (b.disabled = n === 0 && !["#/progres", "#/cartes"].includes(b.dataset.h)));
   }
 
   const modes = root.querySelector(".modes");

@@ -125,3 +125,16 @@ h2{font-size:1.05rem;margin:0}
 .mmain{flex:1;min-width:0}
 .mn{color:#d64541}
 .reset{margin:16px 0}
+.fcard{display:block;width:min(100%,340px);aspect-ratio:3/4;max-height:52dvh;margin:8px auto 0;padding:0;border:0;background:none;perspective:1000px}
+.fin{position:relative;display:block;width:100%;height:100%;transition:transform .4s ease;transform-style:preserve-3d}
+.fcard.flipped .fin{transform:rotateY(180deg)}
+.fface{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;padding:16px;border-radius:20px;border:1px solid var(--line);background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.08);backface-visibility:hidden;-webkit-backface-visibility:hidden;text-align:center}
+.fback{transform:rotateY(180deg);background:var(--chip)}
+.ffront .hanzi{font-size:96px;line-height:1.1;word-break:keep-all}
+.ffront .hanzi.long{font-size:56px}
+.fpy{font-size:2.4rem;font-weight:700;color:var(--accent)}
+.ffr{font-size:1.25rem;font-weight:600}
+.fword{color:var(--muted);font-size:.95rem}
+.fcard+.hint+.rtools{margin-top:14px}
+.rtools .mode:disabled{opacity:.45}
+@media (prefers-reduced-motion:reduce){.fin{transition:none}}

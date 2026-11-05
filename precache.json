@@ -1,6 +1,7 @@
 {
-  "version": "d5e979b78bd6",
+  "version": "59c23c166757",
   "files": [
+    "data/affiche.json",
     "data/hanzi/一.json",
     "data/hanzi/上.json",
     "data/hanzi/下.json",
@@ -193,6 +194,7 @@
     "js/speech.js",
     "js/srs.js",
     "js/storage.js",
+    "js/views/cards.js",
     "js/views/home.js",
     "js/views/progress.js",
     "js/views/recognize.js",
